@@ -1,0 +1,9 @@
+Subjective Structural Intelligence (SSI): From Scoring Forests to Perception, Agency, Self-Models, and Worldview Evolution
+
+Subjective Structural Intelligence (SSI) is a conceptual research framework investigating a fundamental question in intelligent systems: "Whose choice is it?" Building on the Universal Control Plane and Scoring Forest (UCPSF), SSI examines how subject boundaries, embodied interaction, perspective-dependent world models, valuation authority, structural agency, self-referential evaluation, historical identity, and worldview evolution can be represented and governed. The v1.0.0 research collection includes eight foundational papers, three illustrative cases, and seven planned architecture figures. Its proposed constructs are research hypotheses and design candidates, not experimentally validated standards; functional subject models are not claims of phenomenal consciousness or legal personhood. The work emphasizes that the capacity to calculate scores does not by itself confer authority to set values or authorize actions.
+
+GitHub research repository: https://github.com/sizhet/Subjective-Structural-Intelligence
+
+Authors / research collaboration: Sizhe Tan & GPT-Obot
+License: Apache-2.0
+DOI: To be added after Zenodo registration.
