@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  If you use or discuss this research framework, please cite this repository.
+type: software
+title: 'Subjective Structural Intelligence (SSI): From Scoring Forests to Perception, Agency, Self-Models, and Worldview Evolution'
+authors:
+  - family-names: Tan
+    given-names: Sizhe
+  - name: GPT-Obot
+    affiliation: OpenAI AI assistant (collaborative contribution)
+repository-code: 'https://github.com/sizhet/Subjective-Structural-Intelligence'
+url: 'https://github.com/sizhet/Subjective-Structural-Intelligence'
+license: Apache-2.0
+version: 1.0.0
+date-released: '2026-10-16'
+abstract: >-
+  Subjective Structural Intelligence (SSI) is a proposed research framework
+  for studying subject-relative perception, embodied boundaries, historical
+  identity, valuation, structural agency, self-referential evaluation, and
+  governed worldview evolution. It investigates whose world is modeled,
+  whose criteria guide scoring, and whose authority governs choices and
+  revisions. SSI distinguishes operational subject models from phenomenal
+  consciousness and does not claim empirical validation of consciousness.
+keywords:
+  - Subjective Structural Intelligence
+  - Structural Intelligence
+  - Scoring Forest
+  - Subject-Relative Valuation
+  - Structural Agency
+  - Self-Model
+  - Metacognition
+  - Worldview Evolution
+  - AI Governance
+  - Historical Identity
