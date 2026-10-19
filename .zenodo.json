@@ -1,6 +1,8 @@
 {
-  "title": "Universal Control Planes and Scoring Tree/Forest/Folding for Structural Intelligence (UCPSF)",
-  "description": "<p>This research repository introduces Universal Control Planes and Scoring Tree/Forest/Folding for Structural Intelligence (UCPSF), a proposed architectural framework connecting Generalized Scoring Intelligence, Scoring Trees and Forests, structural folding, Common Concept Core (CCC) distillation, hybrid intelligence, and governed Structural Recursive Self-Improvement (RSI).</p><p>The framework investigates three proposed Scoring Operator families: Value-Based Folding, Branching-Based Folding, and ANN Scoring Nodes. It explores Unaligned AND Folding across heterogeneous evaluation structures, recursive extraction of reusable Scoring CCCs, Perspective-Aware Meta-Scoring, and adaptive composition of Localization Intelligence and Per-Node Intelligence.</p><p>UCPSF further proposes a Universal Control Plane for coordinating execution, evaluation, evidence, resource allocation, policy enforcement, and governed structural evolution. Particular emphasis is placed on explicit specifications and contracts, independent validation, counter-evidence, anti-Goodhart mechanisms, and authorized structural promotion.</p><p>Version 1.0.0 presents eight core research papers, three conceptual case studies, an architecture figure catalog, and a research roadmap. It is a theory-first research release. The proposed mechanisms, generality claims, and performance hypotheses require further formalization and empirical validation.</p>",
+  "title": "Subjective Structural Intelligence (SSI): From Scoring Forests to Perception, Agency, Self-Models, and Worldview Evolution",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "description": "An exploratory research framework for Subjective Structural Intelligence (SSI), extending structural scoring and control-plane architectures toward subject boundaries, embodied and situated perception, subject-relative world models, valuation provenance, structural agency, accountable choice, self-referential scoring, metacognition, and governed worldview evolution. The repository presents eight core research papers, three illustrative cases, and an agenda of open questions and falsifiable research directions. Proposed constructs are conceptual research hypotheses rather than empirically validated standards. Functional subjecthood is not asserted to establish phenomenal consciousness, personhood, or normative authority.",
   "creators": [
     {
       "name": "Tan, Sizhe"
@@ -9,46 +11,41 @@
   "contributors": [
     {
       "name": "GPT-Obot",
-      "type": "Other"
+      "type": "Other",
+      "description": "AI research and writing collaborator; attribution does not imply legal authorship or personhood."
     }
   ],
-  "keywords": [
-    "Structural Intelligence",
-    "Generalized Scoring Intelligence",
-    "Scoring Tree",
-    "Scoring Forest",
-    "Structural Folding",
-    "Value-Based Folding",
-    "Branching-Based Folding",
-    "ANN Scoring Nodes",
-    "Unaligned AND Folding",
-    "Common Concept Core",
-    "Recursive CCC Distillation",
-    "Perspective-Aware Optimization",
-    "Meta-Scoring Intelligence",
-    "Hybrid Localization",
-    "Per-Node Intelligence",
-    "Dual-Hybrid Intelligence",
-    "Universal Control Plane",
-    "Structural Recursive Self-Improvement",
-    "AI Relay",
-    "AI Governance",
-    "Anti-Goodhart",
-    "Collective Structural Learning"
-  ],
-  "license": "Apache-2.0",
-  "upload_type": "publication",
-  "publication_type": "technicalnote",
-  "publication_date": "2026-10-15",
   "version": "1.0.0",
   "language": "eng",
+  "license": "Apache-2.0",
   "access_right": "open",
+  "keywords": [
+    "Subjective Structural Intelligence",
+    "SSI",
+    "Structural Intelligence",
+    "Scoring Forest",
+    "Subject Boundary",
+    "Embodied Intelligence",
+    "Subjective World Model",
+    "Subject-Relative Valuation",
+    "Scoring Sovereignty",
+    "Structural Agency",
+    "Structural Freedom",
+    "Choice Provenance",
+    "Self-Referential Scoring",
+    "Metacognition",
+    "Historical Identity",
+    "Worldview Evolution",
+    "Recursive Principle Formation",
+    "AI Governance",
+    "Counter-Evidence"
+  ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/sizhet/Universal-Control-Planes-and-Scoring-Folding",
+      "identifier": "https://github.com/sizhet/Subjective-Structural-Intelligence",
       "relation": "isSupplementTo",
-      "scheme": "url"
+      "resource_type": "software"
     }
   ],
-  "notes": "UCPSF v1.0.0 is a conceptual research and architecture release by Sizhe Tan, developed with GPT-Obot as an AI research and writing collaborator. The repository presents proposed mechanisms and research hypotheses rather than completed implementations or independently validated experimental results. The DOI will be assigned upon Zenodo archiving."
+  "notes": "Initial conceptual research release. No DOI is assigned in this metadata; Zenodo will issue a DOI upon publication. The listed research mechanisms and illustrative cases do not constitute empirical validation."
 }
