@@ -243,3 +243,18 @@ The repository is intended to be released under the **Apache License 2.0**. See 
 
 SSI develops these questions as an open, testable structural research program.
 
+---
+
+## Authors
+
+**Sizhe Tan & GPT-Obot**
+
+---
+
+## 📚 DBM-SI Series Navigation
+
+See:\
+[./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md](./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md)
+
+---
+
