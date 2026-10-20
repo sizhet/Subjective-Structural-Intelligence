@@ -7,7 +7,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Document:** `docs/SSI-004-Scoring-Forests-Valuation-and-Worldview-Formation.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Foundational Research Paper — Candidate Models, Governance Contracts, and Testable Hypotheses  
 **License:** Apache-2.0
 
@@ -24,6 +24,10 @@ We propose a **Subject-Relative Valuation Contract (SRVC)** to bind evaluative o
 The framework addresses value conflicts, noncommensurable objectives, Goodhart effects, evaluator capture, multi-subject disagreement, identity continuity, and structural delegation. It connects SSI with the Universal Control Plane and Scoring Forest (UCPSF), Historical Identity Graphs (HIG), Subjective World Models (SWM), MDT, UTN, CCC, and structural recursive self-improvement. The paper offers falsifiable hypotheses and experimental protocols rather than claiming a universal moral calculus, a solved theory of human values, or phenomenal consciousness.
 
 **Keywords:** Subjective Structural Intelligence; Scoring Forest; Valuation; Worldview Formation; Evaluative Sovereignty; Subject-Relative Valuation Contract; Goodhart's Law; Counter-Evidence; Multi-Subject Evaluation; Structural Governance; Worldview Revision; Identity Continuity
+
+---
+
+![Scoring Forest and Worldview Architecture](../figures/Fig-004-Scoring-Forest-and-Worldview-Architecture.png)
 
 ---
 

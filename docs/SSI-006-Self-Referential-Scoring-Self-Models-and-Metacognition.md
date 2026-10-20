@@ -7,7 +7,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Document:** `docs/SSI-006-Self-Referential-Scoring-Self-Models-and-Metacognition.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Foundational Research Paper — Candidate Architecture, Contracts, and Falsifiable Hypotheses  
 **License:** Apache-2.0
 
@@ -22,6 +22,10 @@ This paper develops a candidate architecture in which an identifiable subject ma
 A central concern is **recursive evaluative circularity**: when a system authors the criteria for its own success, scores itself by those criteria, and treats the resulting score as independent validation. We propose counter-evidence, evaluator separation, provenance, external challenge, and bounded revision as candidate defenses. The paper distinguishes useful reflection from unbounded recursive introspection, proposes testable metrics for calibration and reflective utility, and examines failures including self-confirmation, Goodhart effects, deceptive self-reporting, reflection overhead, and authority confusion. The framework concerns functional metacognition; it does not establish phenomenal self-awareness or consciousness.
 
 **Keywords:** Subjective Structural Intelligence, Self-Referential Scoring, Self-Model, Metacognition, Reflective Evaluation Graph, Self-Model Evidence Ledger, Evaluator Provenance, Anti-Goodhart, Counter-Evidence, Recursive Self-Improvement, Structural Policy Control Plane, Epistemic Calibration
+
+---
+
+![Self-Referential Scoring and Metacognition](../figures/Fig-006-Self-Referential-Scoring-and-Metacognition.png)
 
 ---
 

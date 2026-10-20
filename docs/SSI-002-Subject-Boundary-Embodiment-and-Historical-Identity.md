@@ -7,7 +7,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Document:** `docs/SSI-002-Subject-Boundary-Embodiment-and-Historical-Identity.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Foundational Research Paper — Candidate Models and Testable Hypotheses  
 **License:** Apache-2.0
 
@@ -45,6 +45,10 @@ It also identifies candidate mechanisms through which Structural Intelligence co
 The resulting framework provides a foundation for later SSI research on perception, valuation, agency, self-modeling, and worldview evolution.
 
 **Keywords:** Subjective Structural Intelligence, Subjecthood, Subject Boundary, Embodiment, Situated Intelligence, Historical Identity, Causal Continuity, Agency, Structural Identity, Historical Identity Graph, Scoring Forest, Structural Intelligence
+
+---
+
+![From UCPSF to SSI](../figures/Fig-002-From-UCPSF-to-SSI.png)
 
 ---
 

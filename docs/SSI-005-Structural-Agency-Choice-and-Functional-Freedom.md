@@ -7,7 +7,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Document:** `docs/SSI-005-Structural-Agency-Choice-and-Functional-Freedom.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Foundational Research Paper — Candidate Models, Governance Contracts, and Falsifiable Hypotheses  
 **License:** Apache-2.0
 
@@ -22,6 +22,10 @@ We introduce a multidimensional candidate account of **Functional Freedom**, def
 The paper analyzes human–AI delegation, apparent choice under constrained options, self-modification, multi-subject conflict, coercion, and Goodhart effects. It presents a staged architecture and experimental program, while explicitly avoiding claims about metaphysical free will, moral personhood, or phenomenal consciousness. The central proposition is that **functional freedom depends not merely on choosing within a given space, but also on the governed capacity to understand, contest, and sometimes reshape the structures that define that space**.
 
 **Keywords:** Subjective Structural Intelligence, Structural Agency, Functional Freedom, Choice Provenance, Evaluative Sovereignty, Action Authority, Scoring Forest, Policy Control Plane, Reflective Revision, Historical Identity, Counter-Evidence, Anti-Goodhart
+
+---
+
+![Structural Freedom and Choice Generation](../figures/Fig-005-Structural-Freedom-and-Choice-Generation.png)
 
 ---
 

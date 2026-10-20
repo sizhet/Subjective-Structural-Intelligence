@@ -7,7 +7,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Document:** `docs/SSI-007-Recursive-Principle-Formation-and-Worldview-Evolution.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Foundational Research Paper — Candidate Models, Governance Contracts, and Falsifiable Hypotheses  
 **License:** Apache-2.0
 

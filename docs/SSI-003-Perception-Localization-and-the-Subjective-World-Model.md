@@ -7,7 +7,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Document:** `docs/SSI-003-Perception-Localization-and-the-Subjective-World-Model.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Foundational Research Paper — Candidate Architecture and Testable Hypotheses  
 **License:** Apache-2.0
 
@@ -44,6 +44,10 @@ We distinguish subjective perspective from factual correctness and functional pe
 The resulting research program proposes testable hypotheses concerning localization efficiency, perspective diversity, uncertainty preservation, counter-evidence, and world-model adaptation.
 
 **Keywords:** Subjective Structural Intelligence, Perception Localization, Subjective World Model, Structural Perception, Situated Cognition, Subject-Relative Meaning, MDT, UTN, CBT, Context Engineering, Two-Phase Search, Counter-Evidence, Worldview Evolution
+
+---
+
+![Subject Boundary and Embodied Intelligence](../figures/Fig-003-Subject-Boundary-and-Embodied-Intelligence.png)
 
 ---
 

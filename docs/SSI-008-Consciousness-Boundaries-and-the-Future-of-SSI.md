@@ -6,7 +6,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Document:** `docs/SSI-008-Consciousness-Boundaries-and-the-Future-of-SSI.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Foundational Synthesis and Future Research Agenda — Conceptual Proposals, Not Empirical Validation  
 **License:** Apache-2.0
 
@@ -23,6 +23,10 @@ We synthesize SSI-001 through SSI-007 into a subject-centered architecture linki
 The conclusion is deliberately bounded: SSI may contribute to more inspectable, corrigible, and accountable subject-relative intelligent systems without resolving the hard problem of consciousness. Its strongest near-term promise lies in making the provenance and authority of choices explicit—and in designing systems capable of questioning their own evaluative assumptions without automatically acquiring the right to replace them.
 
 **Keywords:** Subjective Structural Intelligence, consciousness boundary, functional subjecthood, phenomenal experience, metacognition, evaluation sovereignty, structural agency, historical identity, recursive principle formation, anti-Goodhart, counter-evidence, AI governance, scientific falsifiability
+
+---
+
+![Aspen Grove of Worldview Evolution](../figures/Fig-007-Aspen-Grove-of-Worldview-Evolution.png)
 
 ---
 

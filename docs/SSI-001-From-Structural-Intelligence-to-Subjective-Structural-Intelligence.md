@@ -7,7 +7,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Document:** `docs/SSI-001-From-Structural-Intelligence-to-Subjective-Structural-Intelligence.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Foundational Research Paper — Conceptual Framework, Candidate Models, and Testable Hypotheses  
 **License:** Apache-2.0
 
@@ -24,6 +24,12 @@ We propose a candidate subject-state representation, a subject-relative percepti
 The paper provides operational hypotheses and an eight-paper research roadmap. Its claims are deliberately limited: the framework proposes structures for studying **functional subject-relative intelligence**, not a test for phenomenal consciousness or a resolution of philosophical personal identity. The central proposal is that intelligence becomes subject-relative not merely when it computes better scores, but when its interpretations, evaluations, choices, and changes can be situated in a coherent, attributable, and revisable subject organization.
 
 **Keywords:** Subjective Structural Intelligence, Structural Intelligence, Subject Boundary, Embodiment, Historical Identity, Perception Localization, Subjective World Model, Scoring Forest, Evaluative Sovereignty, Structural Agency, Functional Freedom, Self-Model, Worldview Evolution, Counter-Evidence, AI Governance
+
+---
+
+![SSI Grand Map](../figures/Fig-001-SSI-Grand-Map.png)
+
+*Fig. 001 — The proposed SSI research map, linking subject organization, perception, valuation, agency, reflection, and structural growth.*
 
 ---
 
