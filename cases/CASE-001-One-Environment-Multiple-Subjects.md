@@ -6,7 +6,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Suggested Path:** `cases/CASE-001-One-Environment-Multiple-Subjects.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Conceptual Case Study and Proposed Experimental Protocol  
 **License:** Apache-2.0
 

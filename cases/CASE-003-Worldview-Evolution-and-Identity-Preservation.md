@@ -6,7 +6,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Document:** `cases/CASE-003-Worldview-Evolution-and-Identity-Preservation.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Conceptual Case Study — Proposed Experiments, Not Empirical Findings  
 **License:** Apache-2.0
 

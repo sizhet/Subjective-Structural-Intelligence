@@ -7,7 +7,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Document:** `cases/CASE-002-Human-AI-Delegation-and-Scoring-Sovereignty.md`  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Conceptual Case Study — Candidate Contracts, Scenarios, and Testable Hypotheses  
 **License:** Apache-2.0
 
