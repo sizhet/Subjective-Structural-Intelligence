@@ -5,7 +5,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Research program:** Subjective Structural Intelligence (SSI)  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Conceptual research framework; candidate models and testable hypotheses  
 **License:** Apache-2.0  
 **Repository:** https://github.com/sizhet/Subjective-Structural-Intelligence
