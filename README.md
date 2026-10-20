@@ -233,7 +233,7 @@ These connections indicate research relationships, not proof of implementation c
 
 Once an archival DOI is assigned, update the repository citation metadata and use the DOI-backed citation.
 
-The repository is intended to be released under the **Apache License 2.0**. See `LICENSE` when included in the release.
+The repository is intended to be released under the **Apache License 2.0**. See [LICENSE.txt](LICENSE.txt) for the Apache License 2.0.
 
 ---
 
