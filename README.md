@@ -249,6 +249,8 @@ SSI develops these questions as an open, testable structural research program.
 
 **Sizhe Tan & GPT-Obot**
 
+DOI: 10.5281/zenodo.23487037
+
 ---
 
 ## 📚 DBM-SI Series Navigation
