@@ -58,7 +58,7 @@ Neither framework subsumes the other; their interface is an active research topi
 SSI-001 introduces a working subject-state model:
 
 $$
-S_t=(B_t,E_t,H_t,P_t,V_t,A_t,M_t,W_t)
+S_t = (B_t, E_t, H_t, P_t, V_t, A_t, M_t, W_t)
 $$
 
 where:
