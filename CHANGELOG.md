@@ -15,7 +15,7 @@ This project follows the general conventions of [Keep a Changelog](https://keepa
 - Establish benchmark specifications for subject-relative world modeling, scoring sovereignty, choice provenance, reflective revision, and historical identity continuity.
 - Document corrections and research revisions as evidence becomes available.
 
-## [1.0.0] — 2026-10-16
+## [1.0.0] — 2026-10-19
 
 ### Added
 

@@ -3,7 +3,7 @@
 **Subtitle:** From Scoring Forests to Perception, Agency, Self-Models, and Worldview Evolution  
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Research framework; candidate architectures and testable hypotheses  
 **License:** Apache-2.0  
 **Repository:** https://github.com/sizhet/Subjective-Structural-Intelligence

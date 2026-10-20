@@ -3,7 +3,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** 1.0.0  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **Status:** Research terminology and candidate architectural constructs  
 **License:** Apache-2.0
 

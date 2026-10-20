@@ -3,7 +3,7 @@
 **Repository:** `Subjective-Structural-Intelligence`  
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** 1.0.0 (draft)  
-**Date:** October 16, 2026  
+**Date:** October 19, 2026  
 **License:** Apache-2.0
 
 > **Figure asset status:** Seven named figures are planned. The artwork generated so far is **one seven-panel composite**, not seven separately exported PNG files. The filenames below are the intended release assets; do not mark them as present until each independent image has been exported and reviewed. This index provides captions, conceptual scope, and precise insertion guidance.
