@@ -72,35 +72,35 @@ These stages may be recurrent, parallel, or implemented through integrated model
 
 Let the subject's state be:
 
-\[
+$$
 S_t=(B_t,E_t,H_t,P_t,V_t,A_t,M_t,W_t),
-\]
+$$
 
 where boundary, embodiment, history, perception, valuation, agency, self-model, and worldview are defined in the earlier SSI papers. Let \(\Pi_t\) be the governing policy and authorization state. A candidate transition is:
 
-\[
-\mathcal{O}_t = \operatorname{Generate}(SWM_t,E_t,G_t),
-\]
+$$
+\mathcal{O}_t = operatorname{Generate}(SWM_t,E_t,G_t),
+$$
 
-\[
-\mathcal{F}_t = \operatorname{Feasible}(\mathcal{O}_t,E_t,R_t),
-\]
+$$
+\mathcal{F}_t = operatorname{Feasible}(\mathcal{O}_t,E_t,R_t),
+$$
 
-\[
-\mathcal{U}_t = \operatorname{Authorized}(\mathcal{F}_t,\Pi_t),
-\]
+$$
+\mathcal{U}_t = operatorname{Authorized}(\mathcal{F}_t,\Pi_t),
+$$
 
-\[
-D_t = \operatorname{Choose}(\mathcal{U}_t,V_t,M_t,H_t),
-\]
+$$
+D_t = operatorname{Choose}(\mathcal{U}_t,V_t,M_t,H_t),
+$$
 
-\[
-X_{t+1}=\operatorname{Execute}(D_t,X_t),
-\]
+$$
+X_{t+1}=operatorname{Execute}(D_t,X_t),
+$$
 
-\[
-S_{t+1}=\operatorname{Update}(S_t,X_{t+1},F_t).
-\]
+$$
+S_{t+1}=operatorname{Update}(S_t,X_{t+1},F_t).
+$$
 
 Here \(\mathcal{O}_t\) denotes proposed options, \(\mathcal{F}_t\) physically or operationally feasible options, and \(\mathcal{U}_t\) authorized feasible options. The equations are **candidate interfaces**, not claims that these functions are known or that all agency is reducible to a pipeline.
 
@@ -120,9 +120,9 @@ The definition deliberately does not require unconstrained autonomy. Agency may 
 
 A candidate **Agency Profile** is:
 
-\[
+$$
 \mathbf{A}_S=(a_g,a_o,a_e,a_d,a_x,a_r,a_p),
-\]
+$$
 
 where:
 
@@ -154,9 +154,9 @@ An agent with 1,000 prohibited commands may have less effective freedom than an 
 
 We propose a multidimensional **Structural Freedom Profile (SFP)**:
 
-\[
+$$
 \mathbf{F}_{S,t}=(f_{\mathrm{feas}},f_{\mathrm{meaning}},f_{\mathrm{auth}},f_{\mathrm{reflect}},f_{\mathrm{inform}},f_{\mathrm{revise}},f_{\mathrm{contest}}),
-\]
+$$
 
 where the dimensions concern:
 
@@ -262,9 +262,9 @@ This table is illustrative, not a universal legal or organizational allocation. 
 
 A candidate delegation record is:
 
-\[
+$$
 \delta=(p,d,\mathcal{A},C,T,R,\rho),
-\]
+$$
 
 where \(p\) is principal, \(d\) delegate, \(\mathcal{A}\) permitted operations, \(C\) contextual conditions, \(T\) time scope, \(R\) revocation rules, and \(\rho\) audit/provenance requirements.
 
@@ -278,9 +278,9 @@ A delegated choice architecture should specify what happens when authorization e
 
 We propose the **Choice Provenance Graph (CPG)** to connect subject attribution, evaluative reasoning, authority, execution, and consequences.
 
-\[
+$$
 CPG=(N_C,E_C,\Lambda_C),
-\]
+$$
 
 where nodes may represent observations, hypotheses, options, evaluators, constraints, authorization decisions, choices, actions, and feedback; edges represent causal, justificatory, or authorization relationships; and metadata includes provenance, uncertainty, timestamps, and version identifiers.
 
@@ -341,19 +341,19 @@ First-order agency selects among actions under a given evaluator. Second-order a
 
 We distinguish:
 
-\[
-D_t^{(1)}=\operatorname{ChooseActions}(\mathcal{U}_t,V_t),
-\]
+$$
+D_t^{(1)}=operatorname{ChooseActions}(\mathcal{U}_t,V_t),
+$$
 
-\[
-D_t^{(2)}=\operatorname{ProposeRevision}(V_t,H_t,F_t,M_t).
-\]
+$$
+D_t^{(2)}=operatorname{ProposeRevision}(V_t,H_t,F_t,M_t).
+$$
 
 A proposal is not authorization. Installation requires a separate governed process:
 
-\[
-V_{t+1}=\operatorname{ApplyIfAuthorized}(V_t,D_t^{(2)},\Pi_t).
-\]
+$$
+V_{t+1}=operatorname{ApplyIfAuthorized}(V_t,D_t^{(2)},\Pi_t).
+$$
 
 ## 8.2 Evaluator lock-in and evaluator drift
 

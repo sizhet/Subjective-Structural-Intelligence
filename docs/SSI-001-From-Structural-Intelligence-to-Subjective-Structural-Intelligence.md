@@ -96,9 +96,9 @@ These non-equivalences are not rhetorical caveats. They constrain proposed model
 
 We propose the following candidate representation:
 
-\[
+$$
 S_t = (B_t,E_t,H_t,P_t,V_t,A_t,M_t,W_t)
-\]
+$$
 
 where:
 
@@ -117,9 +117,9 @@ This tuple is a **research decomposition**, not an assertion that all eight comp
 
 A useful operational study may assess several dimensions separately:
 
-\[
+$$
 \mathbf{Q}_{S,t}=(q_B,q_E,q_H,q_V,q_A)
-\]
+$$
 
 Here the components concern boundary coherence, situated interaction, historical continuity, evaluative integration, and action attribution. They are candidate dimensions requiring task-specific operationalization, not calibrated universal measures. In particular, **a high profile score would not establish phenomenal consciousness or moral status**.
 
@@ -139,9 +139,9 @@ A boundary determines which states, resources, interactions, and operations belo
 
 We distinguish at least five boundary dimensions:
 
-\[
+$$
 B_S=(B_{\mathrm{exec}},B_{\mathrm{info}},B_{\mathrm{resource}},B_{\mathrm{action}},B_{\mathrm{governance}})
-\]
+$$
 
 Boundary permeability matters. A subject may receive external evidence, import a reusable principle, or delegate execution without thereby becoming identical to its information source or delegate. Boundary change may alter capability while preserving selected dimensions of historical continuity.
 
@@ -153,9 +153,9 @@ Subjects encounter environments through particular interfaces and capacities. Bi
 
 The same environment affords different actions to different subjects. A ladder may be usable by a person but not by a robot lacking manipulators. A software service may access a door only through an authorized control interface. Thus, a feasible action set is subject-dependent:
 
-\[
-\mathcal{O}_{S,t}=\operatorname{Feasible}(X_t,E_t,B_t,R_t)
-\]
+$$
+\mathcal{O}_{S,t}=operatorname{Feasible}(X_t,E_t,B_t,R_t)
+$$
 
 where \(R_t\) denotes relevant resources. Feasibility must also be distinguished from authorization.
 
@@ -165,13 +165,13 @@ where \(R_t\) denotes relevant resources. Feasibility must also be distinguished
 
 Observation is not identical to interpretation. Subjects select and localize context, infer causal significance, and recognize action possibilities from incomplete data. A candidate model is:
 
-\[
+$$
 O_t=\Omega(X_t,B_t,E_t)
-\]
+$$
 
-\[
+$$
 P_t=\Phi(O_t,B_t,E_t,H_t,W_t,G_t)
-\]
+$$
 
 where \(G_t\) denotes current goals and commitments. Perception Localization may activate different contexts, hypotheses, and evaluators for different subjects observing the same event. It should preserve uncertainty and allow alternative-context and counter-evidence search.
 
@@ -181,9 +181,9 @@ where \(G_t\) denotes current goals and commitments. Perception Localization may
 
 Valuation is not merely an output score. It involves the subject-relative significance of outcomes, tradeoffs, commitments, and constraints. A candidate formulation is:
 
-\[
+$$
 V_t(a)=\Psi(a,P_t,H_t,W_t,G_t,C_t)
-\]
+$$
 
 where \(C_t\) represents applicable context and constraints. The output may be a vector, ordering, set of admissible actions, or structured justification rather than a single scalar.
 
@@ -195,9 +195,9 @@ A Scoring Forest can implement parts of this evaluation, but cannot by itself es
 
 Agency involves more than receiving a list of scored alternatives. It includes feasible opportunities, meaningful discretion, informed evaluation, reflection, ability to contest criteria, and authority over action. A candidate structural-freedom profile is:
 
-\[
+$$
 \mathcal{F}_{S,t}=f(\mathcal{O}_{S,t},\mathcal{D}_{S,t},\mathcal{R}_{S,t},\mathcal{K}_{S,t})
-\]
+$$
 
 where \(\mathcal{O}\) is the feasible opportunity structure, \(\mathcal{D}\) decision authority, \(\mathcal{R}\) reflective and revision capability, and \(\mathcal{K}\) applicable constraints and commitments. The function is not assumed scalar or monotonic in the number of options.
 
@@ -209,15 +209,15 @@ More choices do not always mean more freedom: choices can be deceptive, unafford
 
 An intelligent system may represent its own capabilities, limits, history, and reliability. It may also evaluate its own evaluators. A candidate self-model update is:
 
-\[
+$$
 M_{t+1}=\mathcal{U}_M(M_t,O_t,A_t,F_t,H_t)
-\]
+$$
 
 where \(F_t\) represents feedback. A second-order evaluator may inspect a first-order evaluator:
 
-\[
-F_t^{(2)}=\operatorname{Evaluate}(F_t^{(1)},M_t,W_t,\mathcal{E}_t)
-\]
+$$
+F_t^{(2)}=operatorname{Evaluate}(F_t^{(1)},M_t,W_t,\mathcal{E}_t)
+$$
 
 where \(\mathcal{E}_t\) denotes independently assessable evidence. Self-reference introduces a serious circularity risk: a system may redefine its scoring criteria, judge itself by those criteria, and report improvement without external validation. Counter-evidence, provenance, independent benchmarks, and revision gates are therefore necessary research directions.
 
@@ -227,15 +227,15 @@ where \(\mathcal{E}_t\) denotes independently assessable evidence. Self-referenc
 
 Knowledge accumulation is not the same as principle formation, and principle revision is not necessarily a worldview transformation. We distinguish:
 
-\[
+$$
 \Delta K \neq \Delta P_{\mathrm{principle}} \neq \Delta W
-\]
+$$
 
 A candidate worldview update is:
 
-\[
+$$
 W_{t+1}=\mathcal{U}_W(W_t,P_t,V_t,A_t,F_t,M_t)
-\]
+$$
 
 An evolving subject may preserve causal and historical continuity while revising important beliefs or commitments. Conversely, two identical snapshots can have different histories. SSI therefore studies continuity through provenance, commitments, authorized transformations, and attributable action, without equating these with philosophical numerical identity.
 
@@ -295,15 +295,15 @@ The seven dimensions interact rather than forming a strictly linear pipeline.
 
 A schematic decision relation is:
 
-\[
+$$
 D_t=\mathcal{D}(P_t,V_t,F_t,A_t,M_t,W_t,\Pi_t)
-\]
+$$
 
 and a subject transition relation is:
 
-\[
+$$
 S_{t+1}=\mathcal{T}(S_t,X_t,D_t,F_t,\Pi_t)
-\]
+$$
 
 Here \(\Pi_t\) represents applicable policy and authority constraints. These are architectural abstractions, not validated universal equations. They do not require a single centralized decision function; distributed implementations may be possible.
 
@@ -397,13 +397,13 @@ A shared event can have different practical meanings for different subjects. A s
 
 For subjects \(S_1,\ldots,S_n\), we may represent distinct world models and evaluations:
 
-\[
+$$
 SWM_{S_i,t}=\Phi_i(O_{i,t},H_{i,t},E_{i,t},W_{i,t})
-\]
+$$
 
-\[
+$$
 V_{S_i,t}(a)=\Psi_i(a,SWM_{S_i,t},G_{i,t})
-\]
+$$
 
 An aggregate score can be useful, but aggregation alone does not determine which tradeoffs are legitimate. Weighted optimization can conceal severe minority harms, conflicting rights, or an unauthorized transfer of decision authority.
 

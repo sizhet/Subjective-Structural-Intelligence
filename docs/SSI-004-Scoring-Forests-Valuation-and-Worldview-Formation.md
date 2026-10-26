@@ -120,18 +120,18 @@ These distinctions are essential for human-AI collaboration and for preventing s
 
 Let the subject state introduced across SSI-001–003 be represented, for this paper's purposes, by:
 
-\[
+$$
 S_t=(B_t,E_t,H_t,P_t,M_t,W_t,A_t)
-\]
+$$
 
 where the components denote boundaries, situated capabilities, historical organization, perception, self-model, worldview, and agency. Let \(o\) be a candidate outcome and \(c\) the decision context.
 
 A candidate valuation relationship is:
 
-\[
+$$
 \mathcal{V}_{S,t}(o\mid c)=
 \Psi(o,SWM_{S,t},HIG_{S,t},W_{S,t},G_{S,t},\Pi_t)
-\]
+$$
 
 Here \(SWM\) is the Subjective World Model, \(HIG\) the Historical Identity Graph, \(G\) goals and commitments, and \(\Pi\) applicable policies and authority rules. \(\Psi\) is a placeholder for a family of mechanisms, not a universal utility function.
 
@@ -139,9 +139,9 @@ Here \(SWM\) is the Subjective World Model, \(HIG\) the Historical Identity Grap
 
 A candidate result may be:
 
-\[
+$$
 \mathbf{v}(o)=(v_{\mathrm{safety}},v_{\mathrm{benefit}},v_{\mathrm{fairness}},v_{\mathrm{cost}},v_{\mathrm{uncertainty}})
-\]
+$$
 
 These components may be incomparable, differently scaled, or subject to hard constraints. A total ordering may be impossible or inappropriate. Legitimate outcomes include:
 
@@ -159,11 +159,11 @@ These components may be incomparable, differently scaled, or subject to hard con
 
 For contexts in which numerical optimization is justified, one possible formulation is:
 
-\[
+$$
 \max_{a\in\mathcal{A}_{\mathrm{feasible}}} U_{S,t}(a)
 \quad\text{subject to}\quad
 C_j(a,S_t,\Pi_t)\leq 0
-\]
+$$
 
 This is a restricted computational case, not the general definition of valuation. Hard constraints must not be silently converted into small penalties. For multi-subject or noncommensurable problems, richer procedures are required.
 
@@ -171,13 +171,13 @@ This is a restricted computational case, not the general definition of valuation
 
 An action's value depends on predicted consequences and alternatives. A subject-aware evaluator should distinguish the quality of the world model from the desirability of the predicted outcome:
 
-\[
+$$
 \widehat{o}_{t+1}=\mathcal{T}_{SWM}(SWM_{S,t},a)
-\]
+$$
 
-\[
+$$
 \mathcal{V}_{S,t}(a)=\Psi(\widehat{o}_{t+1},W_{S,t},G_{S,t},\Pi_t)
-\]
+$$
 
 Incorrect predictions and disputed values are different failure modes. A system should report them separately.
 
@@ -217,9 +217,9 @@ A Scoring Forest may organize evaluation, but the **Authorized Decision Gate** i
 
 Let:
 
-\[
+$$
 \mathcal{F}_{S,t}=(\mathcal{E}_t,\mathcal{R}_t,\mathcal{C}_t,\mathcal{P}_t)
-\]
+$$
 
 where:
 
@@ -246,10 +246,10 @@ SSI therefore proposes explicit distinction among:
 
 SSI-003 introduced Perception Localization. SSI-004 extends localization to evaluators:
 
-\[
+$$
 \mathcal{E}^{*}_{S,t}=
-\operatorname{LocalizeEvaluators}(P_t,SWM_t,S_t,\Pi_t)
-\]
+operatorname{LocalizeEvaluators}(P_t,SWM_t,S_t,\Pi_t)
+$$
 
 The goal is to activate evaluators relevant to the subject, context, and decision, while preserving routes to alternative or counter-evaluators. Incorrect evaluator localization is itself a research target.
 
@@ -356,9 +356,9 @@ It is not unrestricted freedom to choose any criterion. Legal obligations, other
 
 A candidate vector is:
 
-\[
+$$
 \mathbf{ES}_{S,t}=(e_{\mathrm{inspect}},e_{\mathrm{contest}},e_{\mathrm{select}},e_{\mathrm{revise}},e_{\mathrm{delegate}})
-\]
+$$
 
 Each dimension must be operationally specified. The vector is not a validated psychological or legal measure.
 
@@ -396,9 +396,9 @@ The last level is especially sensitive: optimizing a user's outcomes does not gr
 
 If a system may modify its own Scoring Forest, the system may alter the standards by which its future behavior is evaluated. This introduces a recursive governance problem:
 
-\[
+$$
 \mathcal{F}_{t+1}=\mathcal{U}_{F}(\mathcal{F}_t,\text{feedback},\text{proposal})
-\]
+$$
 
 But the validity of \(\mathcal{U}_{F}\) cannot be determined solely by the same unconstrained evaluator being modified. Independent evidence, policy constraints, version control, and authorized review may be necessary.
 
@@ -425,9 +425,9 @@ Reducing this structure to \(\mathbf{w}\) risks obscuring the reasons, constrain
 
 Let:
 
-\[
+$$
 W_{S,t}=(K_t,I_t,N_t,G_t,R_t)
-\]
+$$
 
 where:
 
@@ -480,9 +480,9 @@ A system may learn better predictions without changing its normative commitments
 
 ## 7.5 Candidate worldview update
 
-\[
+$$
 W_{S,t+1}=\mathcal{U}_{W}(W_{S,t},SWM_{S,t},F_t,CE_t,\rho_t,\Pi_t)
-\]
+$$
 
 where \(F_t\) is feedback, \(CE_t\) counter-evidence, \(\rho_t\) reflective review, and \(\Pi_t\) applicable governance. This is a research model, not a claim that all worldview changes follow an explicit algorithm.
 
@@ -569,9 +569,9 @@ This supports the SI principle of specifications and contracts before runtime mo
 
 SSI-002 introduced the Historical Identity Graph (HIG). WFRL revisions should record relevant causal links:
 
-\[
-HIG_{t+1}=\operatorname{Append}(HIG_t,\text{revision event},\text{provenance})
-\]
+$$
+HIG_{t+1}=operatorname{Append}(HIG_t,\text{revision event},\text{provenance})
+$$
 
 The HIG records what changed and under which conditions. It does not itself determine whether a worldview revision was ethically justified or whether philosophical personal identity persists.
 
@@ -633,9 +633,9 @@ The appropriate response may be to unfold the disagreement, obtain more evidence
 
 Let \(S_1,\ldots,S_n\) denote affected subjects. For a proposed action \(a\):
 
-\[
+$$
 \mathcal{V}_{S_1}(a),\ldots,\mathcal{V}_{S_n}(a)
-\]
+$$
 
 may differ. The differences need not be mistakes. They may reflect real distributional consequences or legitimate value pluralism.
 
@@ -643,9 +643,9 @@ may differ. The differences need not be mistakes. They may reflect real distribu
 
 A weighted aggregate:
 
-\[
+$$
 U(a)=\sum_i \alpha_i U_i(a)
-\]
+$$
 
 can be useful when weights, comparability, and authority are justified. But the formula does not establish the legitimacy of \(\alpha_i\), nor does it ensure rights or constraints are respected.
 

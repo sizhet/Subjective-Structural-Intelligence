@@ -74,9 +74,9 @@ SSI-007 also connects to **Principle Intelligence and Open Structural Learning (
 
 Knowledge representations may concern observations, facts, hypotheses, causal relations, procedures, and their uncertainty. A practical representation is:
 
-\[
+$$
 K_t = \{(c_i,e_i,u_i,p_i)\}_{i=1}^{n}
-\]
+$$
 
 where a claim \(c_i\) is linked to evidence \(e_i\), uncertainty \(u_i\), and provenance \(p_i\). This representation does not assume every stored claim is true.
 
@@ -86,9 +86,9 @@ A **principle** is a potentially reusable structural regularity, constraint, heu
 
 Candidate principle contract:
 
-\[
+$$
 \pi_i = (\tau_i,\mathcal{D}_i,\mathcal{C}_i,\mathcal{E}_i,\mathcal{X}_i,\mathcal{P}_i,\mathcal{A}_i,\nu_i)
-\]
+$$
 
 - \(\tau_i\): principle type and claim.
 - \(\mathcal{D}_i\): applicability domain.
@@ -107,9 +107,9 @@ A **worldview** is a higher-order, subject-relative organization of beliefs, cau
 
 A candidate representation is:
 
-\[
+$$
 W_{S,t}=(\Pi_t,\mathcal{R}_t,\mathcal{H}_t,\mathcal{J}_t,\mathcal{U}_t)
-\]
+$$
 
 where \(\Pi_t\) is a principle collection, \(\mathcal{R}_t\) contains dependencies and priority relationships, \(\mathcal{H}_t\) contains interpretive hierarchies, \(\mathcal{J}_t\) specifies justification and revision procedures, and \(\mathcal{U}_t\) represents unresolved uncertainty or conflict. The subscript \(S\) makes the subject-relative attribution explicit.
 
@@ -117,9 +117,9 @@ Two subjects may share a principle while assigning it different roles, prioritie
 
 ## 3.4 A three-level growth model
 
-\[
+$$
 \Delta K \not\equiv \Delta\Pi \not\equiv \Delta W
-\]
+$$
 
 An accumulation of facts may leave governing principles intact. A revised route-planning heuristic may leave moral commitments unchanged. A new organizing commitment may reorganize several previously stable principles. No implication of improvement follows from the mere magnitude of change.
 
@@ -172,13 +172,13 @@ This is not a claim that principles must always be extracted through an explicit
 
 Let \(D_t\) be new evidence, \(\Pi_t\) the current principle structure, \(W_t\) the current worldview, and \(\Gamma_t\) the applicable governance contract. A proposed update is:
 
-\[
+$$
 \widehat{\Pi}_{t+1}=\mathcal{G}_{\pi}(D_t,\Pi_t,W_t)
-\]
+$$
 
-\[
+$$
 \Pi_{t+1}=\mathcal{R}_{\pi}(\Pi_t,\widehat{\Pi}_{t+1},D_t,\Gamma_t)
-\]
+$$
 
 The generator \(\mathcal{G}_{\pi}\) proposes; the revision operator \(\mathcal{R}_{\pi}\) evaluates, constrains, and conditionally adopts. They should not be treated as the same authority.
 
@@ -186,10 +186,10 @@ The generator \(\mathcal{G}_{\pi}\) proposes; the revision operator \(\mathcal{R
 
 Principles can influence what evidence is collected and how it is interpreted. They can also guide the procedures by which later principles are proposed. A recursive dependency is therefore possible:
 
-\[
+$$
 \Pi_t \rightarrow L_t \rightarrow D_{t+1}
 \rightarrow \widehat{\Pi}_{t+1} \rightarrow \Pi_{t+1}
-\]
+$$
 
 where \(L_t\) denotes localization and evidence-selection behavior. The recursion creates opportunities for adaptation **and** for self-confirming bias. Counter-evidence and independent checks are therefore first-class requirements.
 
@@ -215,9 +215,9 @@ The last response is a metaprinciple revision and generally deserves stronger sc
 
 We propose a **Principle Evolution Graph** to record how principles are generated, supported, contradicted, specialized, generalized, superseded, and adopted. The PEG is a candidate provenance and reasoning structure, not a universal ontology.
 
-\[
+$$
 PEG_t=(N_{\pi},E_{\pi},\Lambda_{\pi})
-\]
+$$
 
 Nodes may include principles, evidence items, experiments, counterexamples, validators, and versions. Edges may represent *derived-from*, *supports*, *contradicts*, *specializes*, *depends-on*, *supersedes*, and *authorized-by*. Metadata records context, time, provenance, uncertainty, and authority.
 
@@ -266,9 +266,9 @@ For example, “minimize travel time” and “avoid unacceptable safety risks�
 
 We propose a **Worldview Revision Map** to represent changes to the organization of principles and commitments:
 
-\[
+$$
 WRM_{t\rightarrow t+1}=(\Delta\Pi,\Delta\mathcal{R},\Delta\mathcal{H},\Delta\mathcal{J},\rho)
-\]
+$$
 
 Here \(\rho\) records rationale, evidence, objections, and authorization. The map is a change record rather than a claim that worldview difference has a single numerical distance.
 
@@ -285,13 +285,13 @@ These regimes are analytically useful, not necessarily discrete in natural cogni
 
 ## 6.4 A candidate worldview update
 
-\[
+$$
 \widehat W_{t+1}=\mathcal{G}_W(W_t,\Pi_{t+1},D_t,F_t)
-\]
+$$
 
-\[
+$$
 W_{t+1}=\mathcal{R}_W(W_t,\widehat W_{t+1},\Gamma_t,HIG_t)
-\]
+$$
 
 where \(F_t\) is feedback and \(HIG_t\) supplies continuity-relevant history. A worldview update should not be automatically deployed because a model predicts it will improve a task score.
 
@@ -373,12 +373,12 @@ The right to propose a principle does not imply the right to install it. The rig
 
 A candidate deployment rule is:
 
-\[
-\operatorname{Deploy}(\Delta\pi)=
-\operatorname{Validated}(\Delta\pi)
-\land\operatorname{Authorized}(\Delta\pi)
-\land\operatorname{RiskAcceptable}(\Delta\pi)
-\]
+$$
+operatorname{Deploy}(\Delta\pi)=
+operatorname{Validated}(\Delta\pi)
+\land operatorname{Authorized}(\Delta\pi)
+\land operatorname{RiskAcceptable}(\Delta\pi)
+$$
 
 Each predicate must be grounded in explicit, context-specific criteria. For high-impact revisions, rollback and external review may be necessary additional conditions.
 
@@ -398,9 +398,9 @@ A subject can revise deeply held assumptions while preserving causal and histori
 
 A candidate continuity profile is:
 
-\[
+$$
 \mathbf{I}_{t,t+1}=(I_C,I_H,I_K,I_A)
-\]
+$$
 
 with causal, historical, commitment, and agency continuity components. Worldview revision may affect these dimensions differently. A system may preserve causal continuity while replacing commitments; it may preserve institutional authority while changing implementation; or it may branch into distinct operational histories.
 
@@ -489,10 +489,10 @@ When a proxy score becomes the target, a system may optimize the proxy while deg
 
 A worldview revision should be evaluated through a vector of outcomes rather than a single self-defined number:
 
-\[
+$$
 \mathbf{Q}(\Delta W)=
 (q_{\mathrm{accuracy}},q_{\mathrm{transfer}},q_{\mathrm{safety}},q_{\mathrm{legitimacy}},q_{\mathrm{audit}},q_{\mathrm{adaptation}})
-\]
+$$
 
 The dimensions require explicit operational definitions. Some may be constraints or qualitative judgments rather than directly comparable numerical scores.
 

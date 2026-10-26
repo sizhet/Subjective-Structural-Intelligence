@@ -162,10 +162,10 @@ Subjecthood may be investigated through multiple operational dimensions.
 
 A candidate vector is:
 
-\[
+$$
 \mathbf{Q}_S =
 (q_B,q_E,q_H,q_V,q_A)
-\]
+$$
 
 where:
 
@@ -191,9 +191,9 @@ No universal scalar subjecthood score is assumed.
 
 Suppose a system evaluates alternatives using:
 
-\[
+$$
 V(a)=\sum_{i=1}^{n}w_i f_i(a)
-\]
+$$
 
 where:
 
@@ -272,10 +272,10 @@ The presence of a boundary is insufficient to establish a subject.
 
 We propose representing subject boundaries as:
 
-\[
+$$
 B_S =
 (B_P,B_I,B_R,B_A,B_G)
-\]
+$$
 
 where:
 
@@ -312,10 +312,10 @@ Potential properties include:
 
 We propose:
 
-\[
+$$
 C_B(S,t)=
 \mathcal{C}(B_S(t),I_S(t),A_S(t))
-\]
+$$
 
 where:
 
@@ -342,13 +342,13 @@ Therefore, subject boundaries should be understood as selectively permeable.
 
 A candidate interaction model is:
 
-\[
+$$
 X_{\mathrm{in}}
 \xrightarrow{B_S}
 S
 \xrightarrow{B_S}
 A_{\mathrm{out}}
-\]
+$$
 
 The boundary mediates incoming information and outgoing action.
 
@@ -450,11 +450,11 @@ The available actions differ.
 
 A candidate affordance model is:
 
-\[
+$$
 \mathcal{A}(x,S_t)
 =
 f(x,E_t,B_t,R_t)
-\]
+$$
 
 where:
 
@@ -478,10 +478,10 @@ Their evaluations may differ even if they share the same general objective.
 
 A candidate model is:
 
-\[
+$$
 V(a,S_t)=
 \Psi(a,P_t,E_t,R_t,G_t)
-\]
+$$
 
 where:
 
@@ -557,10 +557,10 @@ A subject's history may include:
 
 We propose representing a subject's history as:
 
-\[
+$$
 H_S(t)=
 \{e_0,e_1,\ldots,e_t\}
-\]
+$$
 
 where each \(e_i\) is a historically relevant event or transformation.
 
@@ -574,9 +574,9 @@ This motivates a graph-based representation.
 
 We introduce the **Historical Identity Graph (HIG)** as a candidate SSI construct.
 
-\[
+$$
 HIG_S=(N_H,E_H,\Lambda_H)
-\]
+$$
 
 where:
 
@@ -651,19 +651,19 @@ This distinction is especially important for artificial systems because copying 
 
 Suppose:
 
-\[
+$$
 S_0 \rightarrow S_1
-\]
+$$
 
 and then:
 
-\[
+$$
 S_1 \rightarrow
 \begin{cases}
 S_{2a}\\
 S_{2b}
 \end{cases}
-\]
+$$
 
 Both successors may preserve:
 
@@ -710,10 +710,10 @@ Therefore, identity continuity cannot require complete structural immutability.
 
 We propose:
 
-\[
+$$
 S_{t+1}=
 \mathcal{T}(S_t,\Delta_t)
-\]
+$$
 
 where:
 
@@ -759,10 +759,10 @@ SSI should not collapse these differences into a single unexplained identity sco
 
 We propose:
 
-\[
+$$
 \mathbf{I}_{t,t+1}=
 (I_C,I_H,I_K,I_A)
-\]
+$$
 
 where:
 
@@ -875,10 +875,10 @@ It should not be interpreted as a necessary biological or computational implemen
 
 Building on SSI-001, we propose:
 
-\[
+$$
 S_t=
 (B_t,E_t,H_t,V_t,A_t,M_t)
-\]
+$$
 
 where:
 
@@ -913,15 +913,14 @@ SSI proposes that important structural transformations should be evaluated again
 
 A candidate condition is:
 
-\[
-\operatorname{Accept}(\Delta_t)
-=
-\operatorname{Valid}(\Delta_t)
+$$
+operatorname{Accept}(\Delta_t) =
+operatorname{Valid}(\Delta_t)
 \land
-\operatorname{Authorized}(\Delta_t)
+operatorname{Authorized}(\Delta_t)
 \land
-\operatorname{ContinuityAcceptable}(\Delta_t)
-\]
+operatorname{ContinuityAcceptable}(\Delta_t)
+$$
 
 This condition is intended for governed structural changes.
 
@@ -955,25 +954,25 @@ Similarly, a system may be authorized to perform an action that its current hard
 
 We therefore distinguish:
 
-\[
+$$
 \mathcal{A}_{\mathrm{feasible}}
-\]
+$$
 
 from:
 
-\[
+$$
 \mathcal{A}_{\mathrm{authorized}}
-\]
+$$
 
 The executable action set is constrained by both:
 
-\[
+$$
 \mathcal{A}_{\mathrm{executable}}
 =
 \mathcal{A}_{\mathrm{feasible}}
 \cap
 \mathcal{A}_{\mathrm{authorized}}
-\]
+$$
 
 This formulation assumes that the two sets are defined over a common action space.
 
@@ -1002,11 +1001,11 @@ A human may retain final decision authority while delegating computational evalu
 
 We propose representing authority relationships explicitly:
 
-\[
+$$
 \mathcal{R}_{SA}
 =
 \{(S_i,a_j,\pi_k)\}
-\]
+$$
 
 where:
 
@@ -1088,11 +1087,11 @@ For example:
 
 A candidate model is:
 
-\[
+$$
 M_{t+1}
 =
 \mathcal{U}_M(M_t,HIG_t,F_t)
-\]
+$$
 
 where:
 
@@ -1130,11 +1129,10 @@ For example:
 
 These questions suggest a historical meta-evaluation layer.
 
-\[
-F_{\mathrm{historical}}
-=
-\operatorname{Evaluate}(HIG_t,M_t,V_t)
-\]
+$$
+F_{\mathrm{historical}} =
+operatorname{Evaluate}(HIG_t,M_t,V_t)
+$$
 
 The output need not be a scalar score.
 
@@ -1439,10 +1437,10 @@ Potential uses include:
 
 A candidate subject-context representation is:
 
-\[
+$$
 C_S=
 (B_S,E_S,H_S,G_S)
-\]
+$$
 
 where \(G_S\) represents goals and commitments.
 

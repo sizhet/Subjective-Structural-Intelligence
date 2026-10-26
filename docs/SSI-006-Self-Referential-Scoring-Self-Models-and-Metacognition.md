@@ -91,17 +91,17 @@ A **self-model** is a revisable representation of the subject's own operationall
 
 Let the subject state be represented as:
 
-\[
+$$
 S_t=(B_t,E_t,H_t,P_t,V_t,A_t,M_t,W_t)
-\]
+$$
 
 where boundaries, situated capacities, history, perception, valuation, agency, self-model, and worldview jointly condition intelligent behavior. SSI-006 emphasizes the self-model \(M_t\), but treats it as a fallible representation of \(S_t\), not an exact copy of the subject.
 
 A candidate self-model is:
 
-\[
+$$
 M_t=(\widehat C_t,\widehat L_t,\widehat U_t,\widehat G_t,\widehat R_t,\widehat Q_t)
-\]
+$$
 
 with estimated capabilities \(\widehat C_t\), limitations \(\widehat L_t\), uncertainty \(\widehat U_t\), goals and commitments \(\widehat G_t\), authority and resource conditions \(\widehat R_t\), and evidence quality \(\widehat Q_t\). Hats indicate estimates, not guaranteed truths.
 
@@ -109,9 +109,9 @@ with estimated capabilities \(\widehat C_t\), limitations \(\widehat L_t\), unce
 
 When operational ground truth can be measured, define a task-specific self-model discrepancy:
 
-\[
+$$
 \epsilon_M(t)=d(\widehat z_t,z_t)
-\]
+$$
 
 where \(z_t\) is a measured property and \(d\) an appropriate discrepancy function. For properties without accessible ground truth, use externally checkable predictions, uncertainty intervals, or qualified claims rather than inventing a universal accuracy metric.
 
@@ -119,9 +119,9 @@ where \(z_t\) is a measured property and \(d\) an appropriate discrepancy functi
 
 A candidate update rule is:
 
-\[
+$$
 M_{t+1}=\mathcal U_M(M_t,O_t,F_t,HIG_t,CE_t)
-\]
+$$
 
 where observations \(O_t\), feedback \(F_t\), historical provenance \(HIG_t\), and counter-evidence \(CE_t\) may change the model. An update can lower confidence, mark a capability as unverified, or trigger abstention. Self-model growth should not be equated with increasing self-confidence.
 
@@ -139,9 +139,9 @@ An agent may assert that it can execute a workflow, that it understands a user's
 
 A minimal entry is:
 
-\[
+$$
 \ell_i=(c_i,\kappa_i,e_i,p_i,u_i,t_i,r_i)
-\]
+$$
 
 where \(c_i\) is the claim, \(\kappa_i\) its scope/context, \(e_i\) supporting and opposing evidence, \(p_i\) provenance, \(u_i\) uncertainty, \(t_i\) validity time, and \(r_i\) retest or revision conditions.
 
@@ -192,15 +192,15 @@ A ledger should not become an unrestricted archive of personal interactions. It 
 
 A first-order evaluator scores an external candidate:
 
-\[
+$$
 s_t^{(1)}=F_t(a_t\mid C_t)
-\]
+$$
 
 A second-order evaluator examines the first-order evaluator or its decision procedure:
 
-\[
+$$
 r_t^{(2)}=G_t(F_t,D_t,E_t\mid C_t)
-\]
+$$
 
 where \(D_t\) is the decision record and \(E_t\) relevant evidence. The second-order output may be a report, vector, or set of constraints rather than a scalar. The presence of \(G_t\) does not make the evaluation independent or correct.
 
@@ -247,9 +247,9 @@ Examples include held-out outcomes, independently specified safety constraints, 
 
 A simple chain—evaluator evaluates evaluator—hides dependencies. Two nominally different evaluators may share training data, reward signals, prompts, or organizational incentives. We propose a **Reflective Evaluation Graph (REG)** to represent what evaluates what, using which evidence, under whose authority.
 
-\[
+$$
 REG_t=(N_R,E_R,\Lambda_R)
-\]
+$$
 
 where nodes include evaluations, evaluators, claims, evidence sources, and governance decisions; edges include *evaluates*, *depends on*, *contradicts*, *authorizes*, *revises*, and *validates*; metadata records provenance and context.
 
@@ -321,9 +321,9 @@ These actions have different costs, risks, and authority requirements.
 
 A simplified research model is:
 
-\[
+$$
 VoR(r)=\mathbb E[L(d_0)-L(d_r)]-C(r)
-\]
+$$
 
 where \(L\) is a predefined loss, \(d_0\) the decision without reflection, \(d_r\) the decision after reflective action \(r\), and \(C(r)\) its cost. The expression is meaningful only when the loss and cost are comparably defined. Multi-objective or constraint-based formulations may be preferable for safety-critical decisions.
 
@@ -372,9 +372,9 @@ Recognizing an evaluator failure does not establish that a proposed replacement 
 
 A candidate acceptance condition is:
 
-\[
+$$
 Accept(\Delta)=Valid(\Delta)\land Authorized(\Delta)\land Tested(\Delta)\land ContinuityOK(\Delta)
-\]
+$$
 
 Each predicate is relative to a specified governance contract. Passing these checks does not guarantee optimality or absolute safety.
 
@@ -466,9 +466,9 @@ Structural Recursive Self-Improvement (SRSI) asks how an intelligent system can 
 
 A proposed loop is:
 
-\[
+$$
 Evidence \rightarrow Diagnosis \rightarrow Candidate\ \Delta \rightarrow Validation \rightarrow Governance \rightarrow Deployment \rightarrow New\ Evidence
-\]
+$$
 
 This loop does not guarantee monotonic improvement. Regressions and distribution shifts remain possible.
 

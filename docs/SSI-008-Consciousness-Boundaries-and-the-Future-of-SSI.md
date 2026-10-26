@@ -148,9 +148,9 @@ The proposed architecture does **not** establish:
 
 Let \(F(S)\) denote a set of operationally measurable functional properties of system \(S\), and let \(P(S)\) denote the proposition that \(S\) has phenomenal experience. SSI may estimate or test components of \(F(S)\). Without an independently justified bridge principle, it cannot infer:
 
-\[
+$$
 F(S) \Rightarrow P(S).
-\]
+$$
 
 Nor does failure to exhibit a selected functional property logically establish \(\neg P(S)\). The problem is one of inference and evidence, not merely nomenclature.
 
@@ -245,23 +245,23 @@ The diagram is a **logical dependency map**, not a mandatory execution sequence.
 
 A candidate subject state is:
 
-\[
+$$
 S_t=(B_t,E_t,H_t,P_t,V_t,A_t,M_t,W_t),
-\]
+$$
 
 with boundary, embodiment/capabilities, history, perception, valuation, agency, self-model, and worldview. To avoid conflating agency with permission, define a separate governance state:
 
-\[
+$$
 G_t=(\Pi_t,\mathcal{R}_t,\mathcal{U}_t,\mathcal{L}_t),
-\]
+$$
 
 where \(\Pi_t\) denotes applicable policies, \(\mathcal{R}_t\) roles, \(\mathcal{U}_t\) authorization relations, and \(\mathcal{L}_t\) audit and liability assignments. These symbols are proposed placeholders.
 
 A decision can be represented as:
 
-\[
+$$
 D_t=\mathcal{D}(S_t,O_t,\mathcal{F}_t,G_t),
-\]
+$$
 
 where \(\mathcal{F}_t\) denotes applicable evaluators. The fact that \(\mathcal{D}\) can compute a recommendation does not establish permission to execute it.
 
@@ -269,13 +269,13 @@ where \(\mathcal{F}_t\) denotes applicable evaluators. The fact that \(\mathcal{
 
 A proposed revision \(\Delta_t\) may be subject to:
 
-\[
-\operatorname{Deploy}(\Delta_t)=
-\operatorname{Specified}(\Delta_t)\land
-\operatorname{Validated}(\Delta_t)\land
-\operatorname{Authorized}(\Delta_t)\land
-\operatorname{Auditable}(\Delta_t).
-\]
+$$
+operatorname{Deploy}(\Delta_t)=
+operatorname{Specified}(\Delta_t)\land
+operatorname{Validated}(\Delta_t)\land
+operatorname{Authorized}(\Delta_t)\land
+operatorname{Auditable}(\Delta_t).
+$$
 
 The predicates are governance choices, not a universal identity theorem. Emergency rollback and containment may require separate, explicitly specified exceptions.
 
@@ -365,9 +365,9 @@ A Scoring Forest may organize many evaluators, including evidence quality, risk,
 
 For subjects \(S_1,\ldots,S_n\), evaluative outputs may be represented as a vector:
 
-\[
+$$
 \mathbf{V}(a)=(V_{S_1}(a),\ldots,V_{S_n}(a)).
-\]
+$$
 
 Collapsing this vector to one scalar may hide distributional harms or incompatible rights. SSI recommends retaining per-subject provenance, hard constraints, and contestation pathways before any permitted aggregation.
 
@@ -430,9 +430,9 @@ No safeguard guarantees immunity from gaming; their effectiveness must be measur
 
 SSI-007 distinguishes:
 
-\[
+$$
 \Delta K \neq \Delta P \neq \Delta W,
-\]
+$$
 
 where \(\Delta K\) is knowledge change, \(\Delta P\) principle change, and \(\Delta W\) worldview reorganization. New facts may leave principles unchanged; a principle revision may have broad worldview consequences; a worldview change may alter what evidence receives attention.
 

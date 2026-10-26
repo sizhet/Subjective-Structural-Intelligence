@@ -980,7 +980,7 @@ The models may differ.
 A collective system can compare them through:
 
 $$
-\mathcal{C}_{SWM} = \operatorname{Compare}(SWM_1,\ldots,SWM_n)
+\mathcal{C}_{SWM} = operatorname{Compare}(SWM_1,\ldots,SWM_n)
 $$
 
 The comparison may identify:
