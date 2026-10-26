@@ -70,9 +70,9 @@ The case is designed to distinguish these outcomes.
 
 We represent the initial worldview as a structured set of principles and dependencies:
 
-\[
+$$
 W_0=(\mathcal P_0,\mathcal D_0,\mathcal E_0,\mathcal C_0)
-\]
+$$
 
 where:
 
@@ -96,9 +96,9 @@ P-01 is a defeasible planning preference. P-02 and P-04 are externally governed 
 
 For a feasible action \(a\), Harbor may initially use:
 
-\[
+$$
 V_0(a)=\big(C(a),R(a),D(a),U(a)\big)
-\]
+$$
 
 where \(C\) is cost, \(R\) is modeled risk, \(D\) is disruption, and \(U\) is uncertainty. This is a vector, not an assumed universal scalar utility. An authorized policy may apply lexicographic constraints, thresholds, or a context-specific aggregation rule. An apparently low-cost plan is invalid if it violates a binding safety constraint.
 
@@ -118,9 +118,9 @@ The third aspect cannot be repaired by retrieval alone. It requires evaluating w
 
 Let \(E_t^+\) denote evidence supporting the current model and \(E_t^-\) denote counter-evidence. A candidate trigger condition is:
 
-\[
-T_t=\operatorname{DetectGap}(W_t,E_t^+,E_t^-,C_t)
-\]
+$$
+T_t=operatorname{DetectGap}(W_t,E_t^+,E_t^-,C_t)
+$$
 
 where \(C_t\) includes the relevant subject, environmental, and governance context. A trigger indicates the need for investigation; it is not authorization to revise a principle or deploy a new evaluator.
 
@@ -179,9 +179,9 @@ Observation and Counter-Evidence
 
 The candidate PEG records relationships among principle versions:
 
-\[
+$$
 PEG=(N_P,E_P,\Lambda_P)
-\]
+$$
 
 where nodes are candidate or deployed principles, edges capture derivation, refinement, contradiction, replacement, or contextual specialization, and metadata records evidence, tests, authority, and status.
 
@@ -279,9 +279,9 @@ The graph supports claims of historical traceability. It does not, by itself, pr
 
 We use a multidimensional profile:
 
-\[
+$$
 \mathbf I_{0,1}=(I_C,I_H,I_K,I_A)
-\]
+$$
 
 with causal, historical, commitment, and agency/authority continuity dimensions. Each dimension requires a task-specific measurement protocol. A weighted sum is not assumed.
 

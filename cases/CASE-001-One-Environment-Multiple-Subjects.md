@@ -70,17 +70,17 @@ No location, storm probability, loss estimate, or emergency recommendation here 
 
 Let the external state at time \(t\) be
 
-\[
+$$
 X_t=(r_t,w_t,s_t,g_t,d_t),
-\]
+$$
 
 where \(r\) denotes rainfall, \(w\) wind, \(s\) coastal surge, \(g\) grid conditions, and \(d\) district accessibility and demand. No subject observes all components perfectly.
 
 Subject \(i\) receives
 
-\[
+$$
 O_{i,t}=\Omega_i(X_t,\eta_{i,t}),
-\]
+$$
 
 where \(\Omega_i\) represents access to sensors and reports, and \(\eta_{i,t}\) represents noise, delay, and missingness. A common forecast may be part of every \(O_{i,t}\), but it does not make the complete observation sets identical.
 
@@ -105,17 +105,17 @@ These are *roles* with different decision rights, not four interchangeable scori
 
 Define
 
-\[
+$$
 C_{i,t}=(B_{i,t},E_{i,t},H_{i,t},G_{i,t},\Pi_{i,t}),
-\]
+$$
 
 where \(B\) is boundary, \(E\) operational capability, \(H\) historical evidence, \(G\) goals and commitments, and \(\Pi\) applicable authority and policy constraints.
 
 The same storm is localized through different contexts:
 
-\[
+$$
 L_{i,t}=\mathcal L(O_t^{\mathrm{common}},C_{i,t},K_{i,t}).
-\]
+$$
 
 The output \(L_{i,t}\) is not a single score; it may be a collection of relevant events, contexts, hypotheses, uncertainties, and evaluators.
 
@@ -123,9 +123,9 @@ The output \(L_{i,t}\) is not a single score; it may be a collection of relevant
 
 Each subject maintains a candidate
 
-\[
+$$
 SWM_{i,t}=(R_{i,t},C^{\mathrm{causal}}_{i,t},U_{i,t},A_{i,t},V_{i,t},Q_{i,t}),
-\]
+$$
 
 representing entities and relationships, causal expectations, uncertainty, action possibilities, valuation, and provenance.
 
@@ -167,19 +167,19 @@ A fourth category, **resource conflict**, occurs when compatible goals compete f
 
 Let \(\mathcal A_{i,t}^{\mathrm{feasible}}\) be the actions physically or operationally feasible for subject \(i\), and \(\mathcal A_{i,t}^{\mathrm{authorized}}\) those authorized under applicable governance. Their intersection defines executable actions:
 
-\[
+$$
 \mathcal A_{i,t}^{\mathrm{exec}}=
 \mathcal A_{i,t}^{\mathrm{feasible}}\cap
 \mathcal A_{i,t}^{\mathrm{authorized}}.
-\]
+$$
 
 A subject-conditioned Scoring Forest may return a **vector**, not a universal scalar:
 
-\[
+$$
 \mathbf v_i(a\mid SWM_{i,t})=
 (v_i^{\mathrm{safety}},v_i^{\mathrm{livelihood}},
  v_i^{\mathrm{reliability}},v_i^{\mathrm{burden}},\ldots).
-\]
+$$
 
 Some dimensions may be inapplicable to a particular subject. A comparison rule, if used, must declare its provenance, units, constraints, and authority.
 
@@ -187,9 +187,9 @@ Some dimensions may be inapplicable to a particular subject. A comparison rule, 
 
 Suppose an aggregate score is written as
 
-\[
+$$
 J(a)=\sum_{i=1}^{4}\alpha_i V_i(a).
-\]
+$$
 
 This expression is only meaningful when the \(V_i\) values are commensurable, the weights are justified, and relevant rights or safety constraints are respected. Otherwise it can conceal distributive harms. A very high benefit to one stakeholder must not automatically cancel a serious, non-negotiable safety violation affecting another.
 
@@ -518,10 +518,10 @@ Repeated experience can change a subject's world model without necessarily chang
 
 We propose a staged interpretation:
 
-\[
+$$
 \Delta O \rightarrow \Delta SWM \rightarrow
 \Delta \text{Principles} \rightarrow \Delta W,
-\]
+$$
 
 where each arrow represents a **possible** transition requiring evidence and validation, not an automatic consequence.
 

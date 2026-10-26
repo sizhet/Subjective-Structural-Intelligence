@@ -91,9 +91,9 @@ The term **scoring sovereignty** in this case refers to a governance relationshi
 
 For an action or change \(x\), distinguish:
 
-\[
+$$
 \mathcal{A}(x) = (I_x, E_x, R_x, D_x, X_x, M_x)
-\]
+$$
 
 where \(I\) is information access, \(E\) evaluation, \(R\) recommendation, \(D\) decision approval, \(X\) execution, and \(M\) evaluator or policy modification. The tuple describes permissions; it is **not** a scalar degree of autonomy.
 
@@ -117,17 +117,17 @@ For Atlas's initial assignment, a possible authorization profile is:
 
 Let \(a\) be a candidate vendor and \(S\) the represented subject or authorized decision context. Define the feasible set:
 
-\[
+$$
 \mathcal{F}_S = \{a \in \mathcal{A}: C_j(a,S)=\mathrm{true}\;\forall j\in J_{\mathrm{mandatory}}\}.
-\]
+$$
 
 Only candidates in \(\mathcal{F}_S\) proceed to comparative scoring. The synthetic Vendor C fails a mandatory security condition and must not win merely because its price is lower.
 
 For feasible alternatives, a candidate scoring representation is:
 
-\[
+$$
 V_S(a\mid c,t) = F_{\theta_{S,c,t}}(a,\mathcal{E}_{a,t}), \qquad a\in\mathcal{F}_S,
-\]
+$$
 
 where \(c\) is context, \(\mathcal{E}\) is evidence, and \(\theta\) includes evaluator selection, weighting, normalization, and validity assumptions. A Scoring Forest may produce vectors, partial orders, or explanations rather than a single scalar.
 
@@ -137,9 +137,9 @@ For illustration, suppose the approved weights on normalized attributes are reli
 
 Then:
 
-\[
+$$
 V(a)=0.40R_a+0.35P_a+0.15K_a+0.10M_a.
-\]
+$$
 
 | Feasible vendor | Reliability term | Security term | Cost term | Migration term | Total |
 |---|---:|---:|---:|---:|---:|
@@ -154,9 +154,9 @@ Suppose an internal optimizer changes weights to reliability \(0.15\), security 
 
 The distinction is:
 
-\[
-\operatorname{Compute}(V_\theta) \not\Rightarrow \operatorname{AuthorityToSet}(\theta).
-\]
+$$
+operatorname{Compute}(V_\theta) \not\Rightarrow operatorname{AuthorityToSet}(\theta).
+$$
 
 An optimizer's demonstrated ability to improve a proxy metric cannot itself establish legitimacy to modify the target.
 
@@ -172,9 +172,9 @@ A central Anti-Goodhart rule is to separate mandatory constraints from negotiabl
 
 We introduce **DEEC** as a candidate contract schema for research and system design:
 
-\[
+$$
 DEEC=(P,S,T,I,E,R,D,X,M,C,Q,L),
-\]
+$$
 
 where:
 
