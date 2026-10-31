@@ -169,11 +169,11 @@ $$
 
 where:
 
-- \(q_B\): boundary coherence.
-- \(q_E\): situated interaction capability.
-- \(q_H\): historical continuity.
-- \(q_V\): evaluative integration.
-- \(q_A\): action attribution and regulation.
+- $q_B$: boundary coherence.
+- $q_E$: situated interaction capability.
+- $q_H$: historical continuity.
+- $q_V$: evaluative integration.
+- $q_A$: action attribution and regulation.
 
 These quantities are proposed measurement dimensions, not established universal metrics.
 
@@ -197,9 +197,9 @@ $$
 
 where:
 
-- \(a\): candidate alternative.
-- \(f_i\): evaluation function.
-- \(w_i\): evaluation weight.
+- $a$: candidate alternative.
+- $f_i$: evaluation function.
+- $w_i$: evaluation weight.
 
 This may be a useful computational model.
 
@@ -279,11 +279,11 @@ $$
 
 where:
 
-- \(B_P\): physical or execution boundary.
-- \(B_I\): information and memory boundary.
-- \(B_R\): resource and capability boundary.
-- \(B_A\): action-authority boundary.
-- \(B_G\): governance and policy boundary.
+- $B_P$: physical or execution boundary.
+- $B_I$: information and memory boundary.
+- $B_R$: resource and capability boundary.
+- $B_A$: action-authority boundary.
+- $B_G$: governance and policy boundary.
 
 The components may overlap.
 
@@ -319,12 +319,12 @@ $$
 
 where:
 
-- \(C_B\): candidate boundary-coherence measure.
-- \(B_S\): boundary structure.
-- \(I_S\): internal state relationships.
-- \(A_S\): action-attribution relationships.
+- $C_B$: candidate boundary-coherence measure.
+- $B_S$: boundary structure.
+- $I_S$: internal state relationships.
+- $A_S$: action-attribution relationships.
 
-The function \(\mathcal{C}\) remains to be operationally defined.
+The function $\mathcal{C}$ remains to be operationally defined.
 
 It should not be interpreted as an established measure of consciousness or personhood.
 
@@ -458,11 +458,11 @@ $$
 
 where:
 
-- \(x\): environmental object or situation.
-- \(S_t\): subject state.
-- \(E_t\): embodied or operational capabilities.
-- \(B_t\): relevant boundaries.
-- \(R_t\): available resources.
+- $x$: environmental object or situation.
+- $S_t$: subject state.
+- $E_t$: embodied or operational capabilities.
+- $B_t$: relevant boundaries.
+- $R_t$: available resources.
 
 This formulation suggests that practical meaning depends partly on the subject's capabilities.
 
@@ -485,10 +485,10 @@ $$
 
 where:
 
-- \(P_t\): perceptual representation.
-- \(E_t\): capabilities.
-- \(R_t\): resources.
-- \(G_t\): goals and commitments.
+- $P_t$: perceptual representation.
+- $E_t$: capabilities.
+- $R_t$: resources.
+- $G_t$: goals and commitments.
 
 Embodiment is therefore not merely an input modality.
 
@@ -562,7 +562,7 @@ H_S(t)=
 \{e_0,e_1,\ldots,e_t\}
 $$
 
-where each \(e_i\) is a historically relevant event or transformation.
+where each $e_i$ is a historically relevant event or transformation.
 
 However, a simple event list is insufficient.
 
@@ -580,9 +580,9 @@ $$
 
 where:
 
-- \(N_H\): historically relevant states and events.
-- \(E_H\): causal and transformation relationships.
-- \(\Lambda_H\): metadata describing provenance, authorization, commitments, and continuity conditions.
+- $N_H$: historically relevant states and events.
+- $E_H$: causal and transformation relationships.
+- $\Lambda_H$: metadata describing provenance, authorization, commitments, and continuity conditions.
 
 A simplified representation is:
 
@@ -717,9 +717,9 @@ $$
 
 where:
 
-- \(S_t\): subject state.
-- \(\Delta_t\): structural change.
-- \(\mathcal{T}\): transformation process.
+- $S_t$: subject state.
+- $\Delta_t$: structural change.
+- $\mathcal{T}$: transformation process.
 
 The research question becomes:
 
@@ -766,10 +766,10 @@ $$
 
 where:
 
-- \(I_C\): causal continuity.
-- \(I_H\): historical continuity.
-- \(I_K\): commitment continuity.
-- \(I_A\): agency continuity.
+- $I_C$: causal continuity.
+- $I_H$: historical continuity.
+- $I_K$: commitment continuity.
+- $I_A$: agency continuity.
 
 The vector is intended to support comparative analysis.
 
@@ -882,12 +882,12 @@ $$
 
 where:
 
-- \(B_t\): boundary organization.
-- \(E_t\): embodiment or operational situatedness.
-- \(H_t\): historical identity structure.
-- \(V_t\): evaluative organization.
-- \(A_t\): agency organization.
-- \(M_t\): self-model.
+- $B_t$: boundary organization.
+- $E_t$: embodiment or operational situatedness.
+- $H_t$: historical identity structure.
+- $V_t$: evaluative organization.
+- $A_t$: agency organization.
+- $M_t$: self-model.
 
 Perception and worldview, developed in later SSI papers, interact with these components.
 
@@ -914,12 +914,12 @@ SSI proposes that important structural transformations should be evaluated again
 A candidate condition is:
 
 $$
-operatorname{Accept}(\Delta_t) =
-operatorname{Valid}(\Delta_t)
+\mathrm{Accept}(\Delta_t) =
+\mathrm{Valid}(\Delta_t)
 \land
-operatorname{Authorized}(\Delta_t)
+\mathrm{Authorized}(\Delta_t)
 \land
-operatorname{ContinuityAcceptable}(\Delta_t)
+\mathrm{ContinuityAcceptable}(\Delta_t)
 $$
 
 This condition is intended for governed structural changes.
@@ -1009,9 +1009,9 @@ $$
 
 where:
 
-- \(S_i\): subject or represented stakeholder.
-- \(a_j\): action or structural operation.
-- \(\pi_k\): applicable authorization rule.
+- $S_i$: subject or represented stakeholder.
+- $a_j$: action or structural operation.
+- $\pi_k$: applicable authorization rule.
 
 The relationship should distinguish:
 
@@ -1095,9 +1095,9 @@ $$
 
 where:
 
-- \(M_t\): current self-model.
-- \(HIG_t\): historical identity structure.
-- \(F_t\): relevant feedback.
+- $M_t$: current self-model.
+- $HIG_t$: historical identity structure.
+- $F_t$: relevant feedback.
 
 This creates an opportunity for evidence-grounded self-modeling.
 
@@ -1131,7 +1131,7 @@ These questions suggest a historical meta-evaluation layer.
 
 $$
 F_{\mathrm{historical}} =
-operatorname{Evaluate}(HIG_t,M_t,V_t)
+\mathrm{Evaluate}(HIG_t,M_t,V_t)
 $$
 
 The output need not be a scalar score.
@@ -1442,7 +1442,7 @@ C_S=
 (B_S,E_S,H_S,G_S)
 $$
 
-where \(G_S\) represents goals and commitments.
+where $G_S$ represents goals and commitments.
 
 An MDT-based system could use this context to localize relevant evaluators or actions.
 

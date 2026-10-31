@@ -124,7 +124,7 @@ $$
 S_t=(B_t,E_t,H_t,P_t,M_t,W_t,A_t)
 $$
 
-where the components denote boundaries, situated capabilities, historical organization, perception, self-model, worldview, and agency. Let \(o\) be a candidate outcome and \(c\) the decision context.
+where the components denote boundaries, situated capabilities, historical organization, perception, self-model, worldview, and agency. Let $o$ be a candidate outcome and $c$ the decision context.
 
 A candidate valuation relationship is:
 
@@ -133,7 +133,7 @@ $$
 \Psi(o,SWM_{S,t},HIG_{S,t},W_{S,t},G_{S,t},\Pi_t)
 $$
 
-Here \(SWM\) is the Subjective World Model, \(HIG\) the Historical Identity Graph, \(G\) goals and commitments, and \(\Pi\) applicable policies and authority rules. \(\Psi\) is a placeholder for a family of mechanisms, not a universal utility function.
+Here $SWM$ is the Subjective World Model, $HIG$ the Historical Identity Graph, $G$ goals and commitments, and $\Pi$ applicable policies and authority rules. $\Psi$ is a placeholder for a family of mechanisms, not a universal utility function.
 
 ## 3.2 Why valuation may not be scalar
 
@@ -223,10 +223,10 @@ $$
 
 where:
 
-- \(\mathcal{E}_t\): evaluators and sub-evaluators.
-- \(\mathcal{R}_t\): routing, composition, and dependency relationships.
-- \(\mathcal{C}_t\): applicability conditions and constraints.
-- \(\mathcal{P}_t\): provenance and policy metadata.
+- $\mathcal{E}_t$: evaluators and sub-evaluators.
+- $\mathcal{R}_t$: routing, composition, and dependency relationships.
+- $\mathcal{C}_t$: applicability conditions and constraints.
+- $\mathcal{P}_t$: provenance and policy metadata.
 
 The forest may contain statistical models, rules, human review stages, simulation results, or structured evidence checks. Its architecture need not be a literal tree at every level.
 
@@ -248,7 +248,7 @@ SSI-003 introduced Perception Localization. SSI-004 extends localization to eval
 
 $$
 \mathcal{E}^{*}_{S,t}=
-operatorname{LocalizeEvaluators}(P_t,SWM_t,S_t,\Pi_t)
+\mathrm{LocalizeEvaluators}(P_t,SWM_t,S_t,\Pi_t)
 $$
 
 The goal is to activate evaluators relevant to the subject, context, and decision, while preserving routes to alternative or counter-evaluators. Incorrect evaluator localization is itself a research target.
@@ -400,7 +400,7 @@ $$
 \mathcal{F}_{t+1}=\mathcal{U}_{F}(\mathcal{F}_t,\text{feedback},\text{proposal})
 $$
 
-But the validity of \(\mathcal{U}_{F}\) cannot be determined solely by the same unconstrained evaluator being modified. Independent evidence, policy constraints, version control, and authorized review may be necessary.
+But the validity of $\mathcal{U}_{F}$ cannot be determined solely by the same unconstrained evaluator being modified. Independent evidence, policy constraints, version control, and authorized review may be necessary.
 
 ---
 
@@ -419,7 +419,7 @@ A weighted utility function can encode selected tradeoffs. A worldview is broade
 - Identity-relevant commitments.
 - Procedures for handling contradiction and change.
 
-Reducing this structure to \(\mathbf{w}\) risks obscuring the reasons, constraints, and revision rules behind the weights.
+Reducing this structure to $\mathbf{w}$ risks obscuring the reasons, constraints, and revision rules behind the weights.
 
 ## 7.2 A candidate worldview structure
 
@@ -431,11 +431,11 @@ $$
 
 where:
 
-- \(K_t\): belief and knowledge organization.
-- \(I_t\): interpretive and epistemic rules.
-- \(N_t\): normative commitments and constraints.
-- \(G_t\): goals and priorities.
-- \(R_t\): reflection and revision procedures.
+- $K_t$: belief and knowledge organization.
+- $I_t$: interpretive and epistemic rules.
+- $N_t$: normative commitments and constraints.
+- $G_t$: goals and priorities.
+- $R_t$: reflection and revision procedures.
 
 This representation is deliberately plural. Different subjects may exhibit incomplete, conflicting, implicit, or context-dependent worldviews.
 
@@ -484,7 +484,7 @@ $$
 W_{S,t+1}=\mathcal{U}_{W}(W_{S,t},SWM_{S,t},F_t,CE_t,\rho_t,\Pi_t)
 $$
 
-where \(F_t\) is feedback, \(CE_t\) counter-evidence, \(\rho_t\) reflective review, and \(\Pi_t\) applicable governance. This is a research model, not a claim that all worldview changes follow an explicit algorithm.
+where $F_t$ is feedback, $CE_t$ counter-evidence, $\rho_t$ reflective review, and $\Pi_t$ applicable governance. This is a research model, not a claim that all worldview changes follow an explicit algorithm.
 
 ---
 
@@ -570,7 +570,7 @@ This supports the SI principle of specifications and contracts before runtime mo
 SSI-002 introduced the Historical Identity Graph (HIG). WFRL revisions should record relevant causal links:
 
 $$
-HIG_{t+1}=operatorname{Append}(HIG_t,\text{revision event},\text{provenance})
+HIG_{t+1}=\mathrm{Append}(HIG_t,\text{revision event},\text{provenance})
 $$
 
 The HIG records what changed and under which conditions. It does not itself determine whether a worldview revision was ethically justified or whether philosophical personal identity persists.
@@ -631,7 +631,7 @@ The appropriate response may be to unfold the disagreement, obtain more evidence
 
 ## 10.1 The same action, different valuations
 
-Let \(S_1,\ldots,S_n\) denote affected subjects. For a proposed action \(a\):
+Let $S_1,\ldots,S_n$ denote affected subjects. For a proposed action $a$:
 
 $$
 \mathcal{V}_{S_1}(a),\ldots,\mathcal{V}_{S_n}(a)
@@ -647,7 +647,7 @@ $$
 U(a)=\sum_i \alpha_i U_i(a)
 $$
 
-can be useful when weights, comparability, and authority are justified. But the formula does not establish the legitimacy of \(\alpha_i\), nor does it ensure rights or constraints are respected.
+can be useful when weights, comparability, and authority are justified. But the formula does not establish the legitimacy of $\alpha_i$, nor does it ensure rights or constraints are respected.
 
 The governance question **“Who sets the weights?”** cannot be solved by computing the weighted sum more accurately.
 

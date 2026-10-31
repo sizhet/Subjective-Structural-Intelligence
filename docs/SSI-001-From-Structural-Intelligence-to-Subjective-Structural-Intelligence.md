@@ -102,14 +102,14 @@ $$
 
 where:
 
-- \(B_t\): **Boundary** — operational, informational, resource, action, and governance boundaries.
-- \(E_t\): **Embodiment or situated capabilities** — biological, robotic, or operational constraints and affordances.
-- \(H_t\): **History** — relevant experiences, actions, transformations, provenance, and continuity relationships.
-- \(P_t\): **Perception** — subject-conditioned organization and interpretation of observations.
-- \(V_t\): **Valuation** — criteria and procedures through which alternatives acquire subject-relative significance.
-- \(A_t\): **Agency** — capacities and constraints for choosing, acting, delegating, contesting, and revising decisions.
-- \(M_t\): **Self-model** — representations of the subject's own capabilities, commitments, limits, and reliability.
-- \(W_t\): **Worldview** — relatively persistent interpretive principles, assumptions, priorities, and their relationships.
+- $B_t$: **Boundary** — operational, informational, resource, action, and governance boundaries.
+- $E_t$: **Embodiment or situated capabilities** — biological, robotic, or operational constraints and affordances.
+- $H_t$: **History** — relevant experiences, actions, transformations, provenance, and continuity relationships.
+- $P_t$: **Perception** — subject-conditioned organization and interpretation of observations.
+- $V_t$: **Valuation** — criteria and procedures through which alternatives acquire subject-relative significance.
+- $A_t$: **Agency** — capacities and constraints for choosing, acting, delegating, contesting, and revising decisions.
+- $M_t$: **Self-model** — representations of the subject's own capabilities, commitments, limits, and reliability.
+- $W_t$: **Worldview** — relatively persistent interpretive principles, assumptions, priorities, and their relationships.
 
 This tuple is a **research decomposition**, not an assertion that all eight components are independent modules, jointly sufficient for subjecthood, or necessary in identical form for every biological and artificial system. Real implementations may have distributed, overlapping, recurrent, or partially implicit representations.
 
@@ -154,10 +154,10 @@ Subjects encounter environments through particular interfaces and capacities. Bi
 The same environment affords different actions to different subjects. A ladder may be usable by a person but not by a robot lacking manipulators. A software service may access a door only through an authorized control interface. Thus, a feasible action set is subject-dependent:
 
 $$
-\mathcal{O}_{S,t}=operatorname{Feasible}(X_t,E_t,B_t,R_t)
+\mathcal{O}_{S,t}=\mathrm{Feasible}(X_t,E_t,B_t,R_t)
 $$
 
-where \(R_t\) denotes relevant resources. Feasibility must also be distinguished from authorization.
+where $R_t$ denotes relevant resources. Feasibility must also be distinguished from authorization.
 
 **Research question:** How much of an apparently different preference ranking is actually explained by different capabilities, risks, and action opportunities?
 
@@ -173,7 +173,7 @@ $$
 P_t=\Phi(O_t,B_t,E_t,H_t,W_t,G_t)
 $$
 
-where \(G_t\) denotes current goals and commitments. Perception Localization may activate different contexts, hypotheses, and evaluators for different subjects observing the same event. It should preserve uncertainty and allow alternative-context and counter-evidence search.
+where $G_t$ denotes current goals and commitments. Perception Localization may activate different contexts, hypotheses, and evaluators for different subjects observing the same event. It should preserve uncertainty and allow alternative-context and counter-evidence search.
 
 **Research question:** Can subject-conditioned structural localization improve relevance without creating confirmation bias or suppressing contradictory observations?
 
@@ -185,7 +185,7 @@ $$
 V_t(a)=\Psi(a,P_t,H_t,W_t,G_t,C_t)
 $$
 
-where \(C_t\) represents applicable context and constraints. The output may be a vector, ordering, set of admissible actions, or structured justification rather than a single scalar.
+where $C_t$ represents applicable context and constraints. The output may be a vector, ordering, set of admissible actions, or structured justification rather than a single scalar.
 
 A Scoring Forest can implement parts of this evaluation, but cannot by itself establish whose interests are legitimate, which commitments are binding, or who may revise the evaluator. Those are questions of **evaluative provenance and sovereignty**.
 
@@ -199,7 +199,7 @@ $$
 \mathcal{F}_{S,t}=f(\mathcal{O}_{S,t},\mathcal{D}_{S,t},\mathcal{R}_{S,t},\mathcal{K}_{S,t})
 $$
 
-where \(\mathcal{O}\) is the feasible opportunity structure, \(\mathcal{D}\) decision authority, \(\mathcal{R}\) reflective and revision capability, and \(\mathcal{K}\) applicable constraints and commitments. The function is not assumed scalar or monotonic in the number of options.
+where $\mathcal{O}$ is the feasible opportunity structure, $\mathcal{D}$ decision authority, $\mathcal{R}$ reflective and revision capability, and $\mathcal{K}$ applicable constraints and commitments. The function is not assumed scalar or monotonic in the number of options.
 
 More choices do not always mean more freedom: choices can be deceptive, unaffordable, unauthorized, poorly understood, or incompatible with non-negotiable commitments.
 
@@ -213,13 +213,13 @@ $$
 M_{t+1}=\mathcal{U}_M(M_t,O_t,A_t,F_t,H_t)
 $$
 
-where \(F_t\) represents feedback. A second-order evaluator may inspect a first-order evaluator:
+where $F_t$ represents feedback. A second-order evaluator may inspect a first-order evaluator:
 
 $$
-F_t^{(2)}=operatorname{Evaluate}(F_t^{(1)},M_t,W_t,\mathcal{E}_t)
+F_t^{(2)}=\mathrm{Evaluate}(F_t^{(1)},M_t,W_t,\mathcal{E}_t)
 $$
 
-where \(\mathcal{E}_t\) denotes independently assessable evidence. Self-reference introduces a serious circularity risk: a system may redefine its scoring criteria, judge itself by those criteria, and report improvement without external validation. Counter-evidence, provenance, independent benchmarks, and revision gates are therefore necessary research directions.
+where $\mathcal{E}_t$ denotes independently assessable evidence. Self-reference introduces a serious circularity risk: a system may redefine its scoring criteria, judge itself by those criteria, and report improvement without external validation. Counter-evidence, provenance, independent benchmarks, and revision gates are therefore necessary research directions.
 
 **Research question:** Which mechanisms allow useful metacognition without self-confirming evaluator loops?
 
@@ -305,7 +305,7 @@ $$
 S_{t+1}=\mathcal{T}(S_t,X_t,D_t,F_t,\Pi_t)
 $$
 
-Here \(\Pi_t\) represents applicable policy and authority constraints. These are architectural abstractions, not validated universal equations. They do not require a single centralized decision function; distributed implementations may be possible.
+Here $\Pi_t$ represents applicable policy and authority constraints. These are architectural abstractions, not validated universal equations. They do not require a single centralized decision function; distributed implementations may be possible.
 
 The loop also should not be interpreted as a claim that every represented component is phenomenally experienced.
 
@@ -395,7 +395,7 @@ This principle is especially important for recursively improving systems. Evalua
 
 A shared event can have different practical meanings for different subjects. A storm may be valuable to a farmer, dangerous to a coastal resident, and operationally critical to a grid operator. The physical event is shared; the perspectives and stakes differ.
 
-For subjects \(S_1,\ldots,S_n\), we may represent distinct world models and evaluations:
+For subjects $S_1,\ldots,S_n$, we may represent distinct world models and evaluations:
 
 $$
 SWM_{S_i,t}=\Phi_i(O_{i,t},H_{i,t},E_{i,t},W_{i,t})

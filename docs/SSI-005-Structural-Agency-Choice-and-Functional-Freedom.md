@@ -76,33 +76,33 @@ $$
 S_t=(B_t,E_t,H_t,P_t,V_t,A_t,M_t,W_t),
 $$
 
-where boundary, embodiment, history, perception, valuation, agency, self-model, and worldview are defined in the earlier SSI papers. Let \(\Pi_t\) be the governing policy and authorization state. A candidate transition is:
+where boundary, embodiment, history, perception, valuation, agency, self-model, and worldview are defined in the earlier SSI papers. Let $\Pi_t$ be the governing policy and authorization state. A candidate transition is:
 
 $$
-\mathcal{O}_t = operatorname{Generate}(SWM_t,E_t,G_t),
-$$
-
-$$
-\mathcal{F}_t = operatorname{Feasible}(\mathcal{O}_t,E_t,R_t),
+\mathcal{O}_t = \mathrm{Generate}(SWM_t,E_t,G_t),
 $$
 
 $$
-\mathcal{U}_t = operatorname{Authorized}(\mathcal{F}_t,\Pi_t),
+\mathcal{F}_t = \mathrm{Feasible}(\mathcal{O}_t,E_t,R_t),
 $$
 
 $$
-D_t = operatorname{Choose}(\mathcal{U}_t,V_t,M_t,H_t),
+\mathcal{U}_t = \mathrm{Authorized}(\mathcal{F}_t,\Pi_t),
 $$
 
 $$
-X_{t+1}=operatorname{Execute}(D_t,X_t),
+D_t = \mathrm{Choose}(\mathcal{U}_t,V_t,M_t,H_t),
 $$
 
 $$
-S_{t+1}=operatorname{Update}(S_t,X_{t+1},F_t).
+X_{t+1}=\mathrm{Execute}(D_t,X_t),
 $$
 
-Here \(\mathcal{O}_t\) denotes proposed options, \(\mathcal{F}_t\) physically or operationally feasible options, and \(\mathcal{U}_t\) authorized feasible options. The equations are **candidate interfaces**, not claims that these functions are known or that all agency is reducible to a pipeline.
+$$
+S_{t+1}=\mathrm{Update}(S_t,X_{t+1},F_t).
+$$
+
+Here $\mathcal{O}_t$ denotes proposed options, $\mathcal{F}_t$ physically or operationally feasible options, and $\mathcal{U}_t$ authorized feasible options. The equations are **candidate interfaces**, not claims that these functions are known or that all agency is reducible to a pipeline.
 
 ## 2.2 Choice requires attribution
 
@@ -126,13 +126,13 @@ $$
 
 where:
 
-- \(a_g\): ability to form or negotiate goals;
-- \(a_o\): ability to generate and discover alternatives;
-- \(a_e\): ability to evaluate alternatives;
-- \(a_d\): authority and capacity to select;
-- \(a_x\): capacity to execute or direct execution;
-- \(a_r\): reflective capacity to inspect and revise evaluators;
-- \(a_p\): provenance and accountability of these processes.
+- $a_g$: ability to form or negotiate goals;
+- $a_o$: ability to generate and discover alternatives;
+- $a_e$: ability to evaluate alternatives;
+- $a_d$: authority and capacity to select;
+- $a_x$: capacity to execute or direct execution;
+- $a_r$: reflective capacity to inspect and revise evaluators;
+- $a_p$: provenance and accountability of these processes.
 
 The dimensions need not be commensurable. We do not propose a universal weighted sum that declares one system “more of a subject” than another.
 
@@ -146,7 +146,7 @@ A subject can have **high competence and low authority**; **high authority and l
 
 ## 4.1 The option-count fallacy
 
-Let \(\mathcal{O}\) be a set of nominal options. A naive measure is \(|\mathcal{O}|\). This fails when options are inaccessible, dominated, coerced, misleading, unaffordable, unauthorized, or indistinguishable in their consequences.
+Let $\mathcal{O}$ be a set of nominal options. A naive measure is $|\mathcal{O}|$. This fails when options are inaccessible, dominated, coerced, misleading, unaffordable, unauthorized, or indistinguishable in their consequences.
 
 An agent with 1,000 prohibited commands may have less effective freedom than an agent with three feasible, meaningful, legitimate choices. A person offered a choice between two harmful outcomes under coercion is not made free merely by having two alternatives.
 
@@ -172,7 +172,7 @@ These are candidate dimensions requiring task-specific operationalization. No ph
 
 ## 4.3 A partial ordering rather than a single freedom score
 
-For profiles \(\mathbf{F}_1\) and \(\mathbf{F}_2\), one can define **task-specific dominance** only when the relevant dimensions and measurement scales are justified. If one profile improves information quality while another improves execution autonomy, neither need dominate the other. The research program should preserve these tradeoffs rather than hide them behind arbitrary weights.
+For profiles $\mathbf{F}_1$ and $\mathbf{F}_2$, one can define **task-specific dominance** only when the relevant dimensions and measurement scales are justified. If one profile improves information quality while another improves execution autonomy, neither need dominate the other. The research program should preserve these tradeoffs rather than hide them behind arbitrary weights.
 
 ## 4.4 Functional freedom can include self-restraint
 
@@ -266,7 +266,7 @@ $$
 \delta=(p,d,\mathcal{A},C,T,R,\rho),
 $$
 
-where \(p\) is principal, \(d\) delegate, \(\mathcal{A}\) permitted operations, \(C\) contextual conditions, \(T\) time scope, \(R\) revocation rules, and \(\rho\) audit/provenance requirements.
+where $p$ is principal, $d$ delegate, $\mathcal{A}$ permitted operations, $C$ contextual conditions, $T$ time scope, $R$ revocation rules, and $\rho$ audit/provenance requirements.
 
 Delegation should be explicit about whether it grants **information access**, **evaluation**, **choice**, **execution**, or **structural revision**. Permission for one does not imply permission for the others.
 
@@ -342,17 +342,17 @@ First-order agency selects among actions under a given evaluator. Second-order a
 We distinguish:
 
 $$
-D_t^{(1)}=operatorname{ChooseActions}(\mathcal{U}_t,V_t),
+D_t^{(1)}=\mathrm{ChooseActions}(\mathcal{U}_t,V_t),
 $$
 
 $$
-D_t^{(2)}=operatorname{ProposeRevision}(V_t,H_t,F_t,M_t).
+D_t^{(2)}=\mathrm{ProposeRevision}(V_t,H_t,F_t,M_t).
 $$
 
 A proposal is not authorization. Installation requires a separate governed process:
 
 $$
-V_{t+1}=operatorname{ApplyIfAuthorized}(V_t,D_t^{(2)},\Pi_t).
+V_{t+1}=\mathrm{ApplyIfAuthorized}(V_t,D_t^{(2)},\Pi_t).
 $$
 
 ## 8.2 Evaluator lock-in and evaluator drift
@@ -407,7 +407,7 @@ More structural growth need not increase freedom. A new capability can create de
 
 ## 9.2 Freedom over trajectories
 
-Instantaneous option sets omit long-term effects. Let \(\tau=(S_t,a_t,S_{t+1},\ldots,S_{t+k})\) be a candidate trajectory. A trajectory-aware assessment may consider how current actions affect future feasible options, retained commitments, and the ability to reverse or contest decisions. This connects SSI to trajectory intelligence and policy decision systems.
+Instantaneous option sets omit long-term effects. Let $\tau=(S_t,a_t,S_{t+1},\ldots,S_{t+k})$ be a candidate trajectory. A trajectory-aware assessment may consider how current actions affect future feasible options, retained commitments, and the ability to reverse or contest decisions. This connects SSI to trajectory intelligence and policy decision systems.
 
 # 10. Multi-Subject Agency and Conflicting Authority
 

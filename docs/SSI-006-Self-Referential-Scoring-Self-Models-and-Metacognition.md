@@ -95,7 +95,7 @@ $$
 S_t=(B_t,E_t,H_t,P_t,V_t,A_t,M_t,W_t)
 $$
 
-where boundaries, situated capacities, history, perception, valuation, agency, self-model, and worldview jointly condition intelligent behavior. SSI-006 emphasizes the self-model \(M_t\), but treats it as a fallible representation of \(S_t\), not an exact copy of the subject.
+where boundaries, situated capacities, history, perception, valuation, agency, self-model, and worldview jointly condition intelligent behavior. SSI-006 emphasizes the self-model $M_t$, but treats it as a fallible representation of $S_t$, not an exact copy of the subject.
 
 A candidate self-model is:
 
@@ -103,7 +103,7 @@ $$
 M_t=(\widehat C_t,\widehat L_t,\widehat U_t,\widehat G_t,\widehat R_t,\widehat Q_t)
 $$
 
-with estimated capabilities \(\widehat C_t\), limitations \(\widehat L_t\), uncertainty \(\widehat U_t\), goals and commitments \(\widehat G_t\), authority and resource conditions \(\widehat R_t\), and evidence quality \(\widehat Q_t\). Hats indicate estimates, not guaranteed truths.
+with estimated capabilities $\widehat C_t$, limitations $\widehat L_t$, uncertainty $\widehat U_t$, goals and commitments $\widehat G_t$, authority and resource conditions $\widehat R_t$, and evidence quality $\widehat Q_t$. Hats indicate estimates, not guaranteed truths.
 
 ## 3.2 Self-model error
 
@@ -113,7 +113,7 @@ $$
 \epsilon_M(t)=d(\widehat z_t,z_t)
 $$
 
-where \(z_t\) is a measured property and \(d\) an appropriate discrepancy function. For properties without accessible ground truth, use externally checkable predictions, uncertainty intervals, or qualified claims rather than inventing a universal accuracy metric.
+where $z_t$ is a measured property and $d$ an appropriate discrepancy function. For properties without accessible ground truth, use externally checkable predictions, uncertainty intervals, or qualified claims rather than inventing a universal accuracy metric.
 
 ## 3.3 A self-model must be revisable
 
@@ -123,7 +123,7 @@ $$
 M_{t+1}=\mathcal U_M(M_t,O_t,F_t,HIG_t,CE_t)
 $$
 
-where observations \(O_t\), feedback \(F_t\), historical provenance \(HIG_t\), and counter-evidence \(CE_t\) may change the model. An update can lower confidence, mark a capability as unverified, or trigger abstention. Self-model growth should not be equated with increasing self-confidence.
+where observations $O_t$, feedback $F_t$, historical provenance $HIG_t$, and counter-evidence $CE_t$ may change the model. An update can lower confidence, mark a capability as unverified, or trigger abstention. Self-model growth should not be equated with increasing self-confidence.
 
 ## 3.4 Capability is context-dependent
 
@@ -143,7 +143,7 @@ $$
 \ell_i=(c_i,\kappa_i,e_i,p_i,u_i,t_i,r_i)
 $$
 
-where \(c_i\) is the claim, \(\kappa_i\) its scope/context, \(e_i\) supporting and opposing evidence, \(p_i\) provenance, \(u_i\) uncertainty, \(t_i\) validity time, and \(r_i\) retest or revision conditions.
+where $c_i$ is the claim, $\kappa_i$ its scope/context, $e_i$ supporting and opposing evidence, $p_i$ provenance, $u_i$ uncertainty, $t_i$ validity time, and $r_i$ retest or revision conditions.
 
 ## 4.2 Evidence grades
 
@@ -202,7 +202,7 @@ $$
 r_t^{(2)}=G_t(F_t,D_t,E_t\mid C_t)
 $$
 
-where \(D_t\) is the decision record and \(E_t\) relevant evidence. The second-order output may be a report, vector, or set of constraints rather than a scalar. The presence of \(G_t\) does not make the evaluation independent or correct.
+where $D_t$ is the decision record and $E_t$ relevant evidence. The second-order output may be a report, vector, or set of constraints rather than a scalar. The presence of $G_t$ does not make the evaluation independent or correct.
 
 ## 5.2 Evaluator provenance as a prerequisite
 
@@ -229,7 +229,7 @@ Consider a system that:
 
 The argument is circular. A changed measurement rule cannot by itself demonstrate improvement against an unchanged external objective.
 
-Formally, comparing \(F_{t+1}(a_{t+1})\) with \(F_t(a_t)\) is generally invalid when the evaluators differ in meaning, scale, or applicability. Cross-version evaluation requires anchor tasks, invariant external criteria, or an explicit bridge model whose validity is tested.
+Formally, comparing $F_{t+1}(a_{t+1})$ with $F_t(a_t)$ is generally invalid when the evaluators differ in meaning, scale, or applicability. Cross-version evaluation requires anchor tasks, invariant external criteria, or an explicit bridge model whose validity is tested.
 
 ## 5.4 A non-circular evaluation requirement
 
@@ -287,7 +287,7 @@ Choice Provenance Graph --> Revision Proposal
 
 ## 6.3 Detecting cycles
 
-The REG can expose cycles such as \(F_1\) validating \(F_2\) while \(F_2\) validates \(F_1\), both depending on the same untested source. Cycles are not necessarily invalid: mutually checking procedures can be useful. But a cycle cannot be assumed to provide independent evidence merely because it contains multiple nodes.
+The REG can expose cycles such as $F_1$ validating $F_2$ while $F_2$ validates $F_1$, both depending on the same untested source. Cycles are not necessarily invalid: mutually checking procedures can be useful. But a cycle cannot be assumed to provide independent evidence merely because it contains multiple nodes.
 
 ## 6.4 Independence as a measurable property
 
@@ -325,7 +325,7 @@ $$
 VoR(r)=\mathbb E[L(d_0)-L(d_r)]-C(r)
 $$
 
-where \(L\) is a predefined loss, \(d_0\) the decision without reflection, \(d_r\) the decision after reflective action \(r\), and \(C(r)\) its cost. The expression is meaningful only when the loss and cost are comparably defined. Multi-objective or constraint-based formulations may be preferable for safety-critical decisions.
+where $L$ is a predefined loss, $d_0$ the decision without reflection, $d_r$ the decision after reflective action $r$, and $C(r)$ its cost. The expression is meaningful only when the loss and cost are comparably defined. Multi-objective or constraint-based formulations may be preferable for safety-critical decisions.
 
 ## 7.4 Reflection triggers
 

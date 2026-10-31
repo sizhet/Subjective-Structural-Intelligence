@@ -146,13 +146,13 @@ The proposed architecture does **not** establish:
 
 ## 3.3 The operational–phenomenal gap
 
-Let \(F(S)\) denote a set of operationally measurable functional properties of system \(S\), and let \(P(S)\) denote the proposition that \(S\) has phenomenal experience. SSI may estimate or test components of \(F(S)\). Without an independently justified bridge principle, it cannot infer:
+Let $F(S)$ denote a set of operationally measurable functional properties of system $S$, and let $P(S)$ denote the proposition that $S$ has phenomenal experience. SSI may estimate or test components of $F(S)$. Without an independently justified bridge principle, it cannot infer:
 
 $$
 F(S) \Rightarrow P(S).
 $$
 
-Nor does failure to exhibit a selected functional property logically establish \(\neg P(S)\). The problem is one of inference and evidence, not merely nomenclature.
+Nor does failure to exhibit a selected functional property logically establish $\neg P(S)$. The problem is one of inference and evidence, not merely nomenclature.
 
 ## 3.4 Self-report as evidence, not verdict
 
@@ -255,7 +255,7 @@ $$
 G_t=(\Pi_t,\mathcal{R}_t,\mathcal{U}_t,\mathcal{L}_t),
 $$
 
-where \(\Pi_t\) denotes applicable policies, \(\mathcal{R}_t\) roles, \(\mathcal{U}_t\) authorization relations, and \(\mathcal{L}_t\) audit and liability assignments. These symbols are proposed placeholders.
+where $\Pi_t$ denotes applicable policies, $\mathcal{R}_t$ roles, $\mathcal{U}_t$ authorization relations, and $\mathcal{L}_t$ audit and liability assignments. These symbols are proposed placeholders.
 
 A decision can be represented as:
 
@@ -263,18 +263,18 @@ $$
 D_t=\mathcal{D}(S_t,O_t,\mathcal{F}_t,G_t),
 $$
 
-where \(\mathcal{F}_t\) denotes applicable evaluators. The fact that \(\mathcal{D}\) can compute a recommendation does not establish permission to execute it.
+where $\mathcal{F}_t$ denotes applicable evaluators. The fact that $\mathcal{D}$ can compute a recommendation does not establish permission to execute it.
 
 ## 5.3 Structural evolution with external constraints
 
-A proposed revision \(\Delta_t\) may be subject to:
+A proposed revision $\Delta_t$ may be subject to:
 
 $$
-operatorname{Deploy}(\Delta_t)=
-operatorname{Specified}(\Delta_t)\land
-operatorname{Validated}(\Delta_t)\land
-operatorname{Authorized}(\Delta_t)\land
-operatorname{Auditable}(\Delta_t).
+\mathrm{Deploy}(\Delta_t)=
+\mathrm{Specified}(\Delta_t)\land
+\mathrm{Validated}(\Delta_t)\land
+\mathrm{Authorized}(\Delta_t)\land
+\mathrm{Auditable}(\Delta_t).
 $$
 
 The predicates are governance choices, not a universal identity theorem. Emergency rollback and containment may require separate, explicitly specified exceptions.
@@ -363,7 +363,7 @@ A Scoring Forest may organize many evaluators, including evidence quality, risk,
 
 ## 8.3 Multi-subject conflicts
 
-For subjects \(S_1,\ldots,S_n\), evaluative outputs may be represented as a vector:
+For subjects $S_1,\ldots,S_n$, evaluative outputs may be represented as a vector:
 
 $$
 \mathbf{V}(a)=(V_{S_1}(a),\ldots,V_{S_n}(a)).
@@ -434,7 +434,7 @@ $$
 \Delta K \neq \Delta P \neq \Delta W,
 $$
 
-where \(\Delta K\) is knowledge change, \(\Delta P\) principle change, and \(\Delta W\) worldview reorganization. New facts may leave principles unchanged; a principle revision may have broad worldview consequences; a worldview change may alter what evidence receives attention.
+where $\Delta K$ is knowledge change, $\Delta P$ principle change, and $\Delta W$ worldview reorganization. New facts may leave principles unchanged; a principle revision may have broad worldview consequences; a worldview change may alter what evidence receives attention.
 
 ## 10.2 Principle evolution is not automatically progress
 

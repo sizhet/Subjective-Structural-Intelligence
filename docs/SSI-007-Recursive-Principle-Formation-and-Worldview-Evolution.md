@@ -78,7 +78,7 @@ $$
 K_t = \{(c_i,e_i,u_i,p_i)\}_{i=1}^{n}
 $$
 
-where a claim \(c_i\) is linked to evidence \(e_i\), uncertainty \(u_i\), and provenance \(p_i\). This representation does not assume every stored claim is true.
+where a claim $c_i$ is linked to evidence $e_i$, uncertainty $u_i$, and provenance $p_i$. This representation does not assume every stored claim is true.
 
 ## 3.2 Principles
 
@@ -90,14 +90,14 @@ $$
 \pi_i = (\tau_i,\mathcal{D}_i,\mathcal{C}_i,\mathcal{E}_i,\mathcal{X}_i,\mathcal{P}_i,\mathcal{A}_i,\nu_i)
 $$
 
-- \(\tau_i\): principle type and claim.
-- \(\mathcal{D}_i\): applicability domain.
-- \(\mathcal{C}_i\): contextual conditions and exceptions.
-- \(\mathcal{E}_i\): supporting evidence.
-- \(\mathcal{X}_i\): counter-evidence and known failure cases.
-- \(\mathcal{P}_i\): origin and transformation provenance.
-- \(\mathcal{A}_i\): authority, ownership, or adoption requirements, as applicable.
-- \(\nu_i\): version and revision status.
+- $\tau_i$: principle type and claim.
+- $\mathcal{D}_i$: applicability domain.
+- $\mathcal{C}_i$: contextual conditions and exceptions.
+- $\mathcal{E}_i$: supporting evidence.
+- $\mathcal{X}_i$: counter-evidence and known failure cases.
+- $\mathcal{P}_i$: origin and transformation provenance.
+- $\mathcal{A}_i$: authority, ownership, or adoption requirements, as applicable.
+- $\nu_i$: version and revision status.
 
 Not every principle must be represented symbolically. This contract identifies information an auditable implementation may need to recover or reference.
 
@@ -111,7 +111,7 @@ $$
 W_{S,t}=(\Pi_t,\mathcal{R}_t,\mathcal{H}_t,\mathcal{J}_t,\mathcal{U}_t)
 $$
 
-where \(\Pi_t\) is a principle collection, \(\mathcal{R}_t\) contains dependencies and priority relationships, \(\mathcal{H}_t\) contains interpretive hierarchies, \(\mathcal{J}_t\) specifies justification and revision procedures, and \(\mathcal{U}_t\) represents unresolved uncertainty or conflict. The subscript \(S\) makes the subject-relative attribution explicit.
+where $\Pi_t$ is a principle collection, $\mathcal{R}_t$ contains dependencies and priority relationships, $\mathcal{H}_t$ contains interpretive hierarchies, $\mathcal{J}_t$ specifies justification and revision procedures, and $\mathcal{U}_t$ represents unresolved uncertainty or conflict. The subscript $S$ makes the subject-relative attribution explicit.
 
 Two subjects may share a principle while assigning it different roles, priorities, or exceptions. They need not therefore share the same worldview.
 
@@ -170,7 +170,7 @@ This is not a claim that principles must always be extracted through an explicit
 
 ## 4.2 Formal candidate update
 
-Let \(D_t\) be new evidence, \(\Pi_t\) the current principle structure, \(W_t\) the current worldview, and \(\Gamma_t\) the applicable governance contract. A proposed update is:
+Let $D_t$ be new evidence, $\Pi_t$ the current principle structure, $W_t$ the current worldview, and $\Gamma_t$ the applicable governance contract. A proposed update is:
 
 $$
 \widehat{\Pi}_{t+1}=\mathcal{G}_{\pi}(D_t,\Pi_t,W_t)
@@ -180,7 +180,7 @@ $$
 \Pi_{t+1}=\mathcal{R}_{\pi}(\Pi_t,\widehat{\Pi}_{t+1},D_t,\Gamma_t)
 $$
 
-The generator \(\mathcal{G}_{\pi}\) proposes; the revision operator \(\mathcal{R}_{\pi}\) evaluates, constrains, and conditionally adopts. They should not be treated as the same authority.
+The generator $\mathcal{G}_{\pi}$ proposes; the revision operator $\mathcal{R}_{\pi}$ evaluates, constrains, and conditionally adopts. They should not be treated as the same authority.
 
 ## 4.3 Why the process is recursive
 
@@ -191,7 +191,7 @@ $$
 \rightarrow \widehat{\Pi}_{t+1} \rightarrow \Pi_{t+1}
 $$
 
-where \(L_t\) denotes localization and evidence-selection behavior. The recursion creates opportunities for adaptation **and** for self-confirming bias. Counter-evidence and independent checks are therefore first-class requirements.
+where $L_t$ denotes localization and evidence-selection behavior. The recursion creates opportunities for adaptation **and** for self-confirming bias. Counter-evidence and independent checks are therefore first-class requirements.
 
 ## 4.4 Local repair versus principle replacement
 
@@ -270,16 +270,16 @@ $$
 WRM_{t\rightarrow t+1}=(\Delta\Pi,\Delta\mathcal{R},\Delta\mathcal{H},\Delta\mathcal{J},\rho)
 $$
 
-Here \(\rho\) records rationale, evidence, objections, and authorization. The map is a change record rather than a claim that worldview difference has a single numerical distance.
+Here $\rho$ records rationale, evidence, objections, and authorization. The map is a change record rather than a claim that worldview difference has a single numerical distance.
 
 ## 6.3 Four revision regimes
 
 | Regime | Typical change | Example | Governance concern |
 |---|---|---|---|
-| Local evidence update | \(\Delta K\) | Correct a measurement | Evidence integrity |
-| Principle refinement | \(\Delta\Pi\) | Narrow a rule's scope | Validation and exceptions |
-| Evaluative reweighting | \(\Delta\mathcal{R}\) | Change risk priority | Value provenance and authority |
-| Worldview reorganization | \(\Delta W\) | Revise how competing goals are ordered | Identity, commitments, legitimacy |
+| Local evidence update | $\Delta K$ | Correct a measurement | Evidence integrity |
+| Principle refinement | $\Delta\Pi$ | Narrow a rule's scope | Validation and exceptions |
+| Evaluative reweighting | $\Delta\mathcal{R}$ | Change risk priority | Value provenance and authority |
+| Worldview reorganization | $\Delta W$ | Revise how competing goals are ordered | Identity, commitments, legitimacy |
 
 These regimes are analytically useful, not necessarily discrete in natural cognition.
 
@@ -293,7 +293,7 @@ $$
 W_{t+1}=\mathcal{R}_W(W_t,\widehat W_{t+1},\Gamma_t,HIG_t)
 $$
 
-where \(F_t\) is feedback and \(HIG_t\) supplies continuity-relevant history. A worldview update should not be automatically deployed because a model predicts it will improve a task score.
+where $F_t$ is feedback and $HIG_t$ supplies continuity-relevant history. A worldview update should not be automatically deployed because a model predicts it will improve a task score.
 
 ---
 
@@ -374,10 +374,10 @@ The right to propose a principle does not imply the right to install it. The rig
 A candidate deployment rule is:
 
 $$
-operatorname{Deploy}(\Delta\pi)=
-operatorname{Validated}(\Delta\pi)
-\land operatorname{Authorized}(\Delta\pi)
-\land operatorname{RiskAcceptable}(\Delta\pi)
+\mathrm{Deploy}(\Delta\pi)=
+\mathrm{Validated}(\Delta\pi)
+\land \mathrm{Authorized}(\Delta\pi)
+\land \mathrm{RiskAcceptable}(\Delta\pi)
 $$
 
 Each predicate must be grounded in explicit, context-specific criteria. For high-impact revisions, rollback and external review may be necessary additional conditions.
