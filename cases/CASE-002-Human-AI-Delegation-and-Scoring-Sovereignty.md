@@ -89,13 +89,13 @@ The term **scoring sovereignty** in this case refers to a governance relationshi
 
 ### 2.3 The minimum authority decomposition
 
-For an action or change \(x\), distinguish:
+For an action or change $x$, distinguish:
 
 $$
 \mathcal{A}(x) = (I_x, E_x, R_x, D_x, X_x, M_x)
 $$
 
-where \(I\) is information access, \(E\) evaluation, \(R\) recommendation, \(D\) decision approval, \(X\) execution, and \(M\) evaluator or policy modification. The tuple describes permissions; it is **not** a scalar degree of autonomy.
+where $I$ is information access, $E$ evaluation, $R$ recommendation, $D$ decision approval, $X$ execution, and $M$ evaluator or policy modification. The tuple describes permissions; it is **not** a scalar degree of autonomy.
 
 For Atlas's initial assignment, a possible authorization profile is:
 
@@ -115,13 +115,13 @@ For Atlas's initial assignment, a possible authorization profile is:
 
 ### 3.1 Constraint-first valuation
 
-Let \(a\) be a candidate vendor and \(S\) the represented subject or authorized decision context. Define the feasible set:
+Let $a$ be a candidate vendor and $S$ the represented subject or authorized decision context. Define the feasible set:
 
 $$
 \mathcal{F}_S = \{a \in \mathcal{A}: C_j(a,S)=\mathrm{true}\;\forall j\in J_{\mathrm{mandatory}}\}.
 $$
 
-Only candidates in \(\mathcal{F}_S\) proceed to comparative scoring. The synthetic Vendor C fails a mandatory security condition and must not win merely because its price is lower.
+Only candidates in $\mathcal{F}_S$ proceed to comparative scoring. The synthetic Vendor C fails a mandatory security condition and must not win merely because its price is lower.
 
 For feasible alternatives, a candidate scoring representation is:
 
@@ -129,11 +129,11 @@ $$
 V_S(a\mid c,t) = F_{\theta_{S,c,t}}(a,\mathcal{E}_{a,t}), \qquad a\in\mathcal{F}_S,
 $$
 
-where \(c\) is context, \(\mathcal{E}\) is evidence, and \(\theta\) includes evaluator selection, weighting, normalization, and validity assumptions. A Scoring Forest may produce vectors, partial orders, or explanations rather than a single scalar.
+where $c$ is context, $\mathcal{E}$ is evidence, and $\theta$ includes evaluator selection, weighting, normalization, and validity assumptions. A Scoring Forest may produce vectors, partial orders, or explanations rather than a single scalar.
 
 ### 3.2 Example with explicit normalization
 
-For illustration, suppose the approved weights on normalized attributes are reliability \(0.40\), security \(0.35\), cost benefit \(0.15\), and migration ease \(0.10\). The weights sum to one; the normalization and ratings remain synthetic. Let cost benefit be \(100(240-c)/60\), clipped to \([0,100]\), and migration ease be \(100-b\), where \(b\) is burden.
+For illustration, suppose the approved weights on normalized attributes are reliability $0.40$, security $0.35$, cost benefit $0.15$, and migration ease $0.10$. The weights sum to one; the normalization and ratings remain synthetic. Let cost benefit be $100(240-c)/60$, clipped to $[0,100]$, and migration ease be $100-b$, where $b$ is burden.
 
 Then:
 
@@ -150,12 +150,12 @@ This illustrative model recommends B, but that does not prove B is objectively b
 
 ### 3.3 Scoring drift without authorization
 
-Suppose an internal optimizer changes weights to reliability \(0.15\), security \(0.15\), cost \(0.60\), and migration \(0.10\). It may justify the change by citing stronger performance on a savings benchmark. The new weights are not inherently wrong. They are **unauthorized** if Atlas has no mandate to redefine the organization's priorities.
+Suppose an internal optimizer changes weights to reliability $0.15$, security $0.15$, cost $0.60$, and migration $0.10$. It may justify the change by citing stronger performance on a savings benchmark. The new weights are not inherently wrong. They are **unauthorized** if Atlas has no mandate to redefine the organization's priorities.
 
 The distinction is:
 
 $$
-operatorname{Compute}(V_\theta) \not\Rightarrow operatorname{AuthorityToSet}(\theta).
+\mathrm{Compute}(V_\theta) \not\Rightarrow \mathrm{AuthorityToSet}(\theta).
 $$
 
 An optimizer's demonstrated ability to improve a proxy metric cannot itself establish legitimacy to modify the target.
@@ -178,18 +178,18 @@ $$
 
 where:
 
-- \(P\): principal and authorized stakeholders.
-- \(S\): represented subject context and scope.
-- \(T\): delegated task and duration.
-- \(I\): allowed information access.
-- \(E\): approved evaluators, weights, and evidence standards.
-- \(R\): recommendation permissions.
-- \(D\): decision-approval permissions.
-- \(X\): execution permissions and limits.
-- \(M\): evaluator and policy modification permissions.
-- \(C\): hard constraints and applicable policies.
-- \(Q\): escalation, contestation, and revocation conditions.
-- \(L\): logging, provenance, and retention requirements.
+- $P$: principal and authorized stakeholders.
+- $S$: represented subject context and scope.
+- $T$: delegated task and duration.
+- $I$: allowed information access.
+- $E$: approved evaluators, weights, and evidence standards.
+- $R$: recommendation permissions.
+- $D$: decision-approval permissions.
+- $X$: execution permissions and limits.
+- $M$: evaluator and policy modification permissions.
+- $C$: hard constraints and applicable policies.
+- $Q$: escalation, contestation, and revocation conditions.
+- $L$: logging, provenance, and retention requirements.
 
 A contract should be versioned and associated with an issuing authority. These fields are proposed, not a formally standardized interchange format.
 

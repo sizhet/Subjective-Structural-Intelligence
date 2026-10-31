@@ -68,25 +68,25 @@ No location, storm probability, loss estimate, or emergency recommendation here 
 
 ### 2.2 World state and observations
 
-Let the external state at time \(t\) be
+Let the external state at time $t$ be
 
 $$
 X_t=(r_t,w_t,s_t,g_t,d_t),
 $$
 
-where \(r\) denotes rainfall, \(w\) wind, \(s\) coastal surge, \(g\) grid conditions, and \(d\) district accessibility and demand. No subject observes all components perfectly.
+where $r$ denotes rainfall, $w$ wind, $s$ coastal surge, $g$ grid conditions, and $d$ district accessibility and demand. No subject observes all components perfectly.
 
-Subject \(i\) receives
+Subject $i$ receives
 
 $$
 O_{i,t}=\Omega_i(X_t,\eta_{i,t}),
 $$
 
-where \(\Omega_i\) represents access to sensors and reports, and \(\eta_{i,t}\) represents noise, delay, and missingness. A common forecast may be part of every \(O_{i,t}\), but it does not make the complete observation sets identical.
+where $\Omega_i$ represents access to sensors and reports, and $\eta_{i,t}$ represents noise, delay, and missingness. A common forecast may be part of every $O_{i,t}$, but it does not make the complete observation sets identical.
 
 ### 2.3 Controlled common evidence
 
-For a controlled comparison, first give all subjects an identical evidence packet \(O_t^{\mathrm{common}}\), then introduce subject-specific information in a separate experimental condition. This prevents differences in access to evidence from being confused with differences in perspective.
+For a controlled comparison, first give all subjects an identical evidence packet $O_t^{\mathrm{common}}$, then introduce subject-specific information in a separate experimental condition. This prevents differences in access to evidence from being confused with differences in perspective.
 
 ---
 
@@ -109,7 +109,7 @@ $$
 C_{i,t}=(B_{i,t},E_{i,t},H_{i,t},G_{i,t},\Pi_{i,t}),
 $$
 
-where \(B\) is boundary, \(E\) operational capability, \(H\) historical evidence, \(G\) goals and commitments, and \(\Pi\) applicable authority and policy constraints.
+where $B$ is boundary, $E$ operational capability, $H$ historical evidence, $G$ goals and commitments, and $\Pi$ applicable authority and policy constraints.
 
 The same storm is localized through different contexts:
 
@@ -117,7 +117,7 @@ $$
 L_{i,t}=\mathcal L(O_t^{\mathrm{common}},C_{i,t},K_{i,t}).
 $$
 
-The output \(L_{i,t}\) is not a single score; it may be a collection of relevant events, contexts, hypotheses, uncertainties, and evaluators.
+The output $L_{i,t}$ is not a single score; it may be a collection of relevant events, contexts, hypotheses, uncertainties, and evaluators.
 
 ### 3.2 Subjective World Models
 
@@ -165,7 +165,7 @@ A fourth category, **resource conflict**, occurs when compatible goals compete f
 
 ## 5. From Perception to Valuation: Four Scoring Forests
 
-Let \(\mathcal A_{i,t}^{\mathrm{feasible}}\) be the actions physically or operationally feasible for subject \(i\), and \(\mathcal A_{i,t}^{\mathrm{authorized}}\) those authorized under applicable governance. Their intersection defines executable actions:
+Let $\mathcal A_{i,t}^{\mathrm{feasible}}$ be the actions physically or operationally feasible for subject $i$, and $\mathcal A_{i,t}^{\mathrm{authorized}}$ those authorized under applicable governance. Their intersection defines executable actions:
 
 $$
 \mathcal A_{i,t}^{\mathrm{exec}}=
@@ -191,7 +191,7 @@ $$
 J(a)=\sum_{i=1}^{4}\alpha_i V_i(a).
 $$
 
-This expression is only meaningful when the \(V_i\) values are commensurable, the weights are justified, and relevant rights or safety constraints are respected. Otherwise it can conceal distributive harms. A very high benefit to one stakeholder must not automatically cancel a serious, non-negotiable safety violation affecting another.
+This expression is only meaningful when the $V_i$ values are commensurable, the weights are justified, and relevant rights or safety constraints are respected. Otherwise it can conceal distributive harms. A very high benefit to one stakeholder must not automatically cancel a serious, non-negotiable safety violation affecting another.
 
 **Illustrative ordinal table** (higher numbers indicate stronger preference *within each subject's own row*, not cross-subject utility):
 

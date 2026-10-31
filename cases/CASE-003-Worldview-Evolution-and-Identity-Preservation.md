@@ -76,10 +76,10 @@ $$
 
 where:
 
-- \(\mathcal P_0\): active principles;
-- \(\mathcal D_0\): dependencies and priority relationships;
-- \(\mathcal E_0\): evidence and justification links;
-- \(\mathcal C_0\): contextual applicability and constraints.
+- $\mathcal P_0$: active principles;
+- $\mathcal D_0$: dependencies and priority relationships;
+- $\mathcal E_0$: evidence and justification links;
+- $\mathcal C_0$: contextual applicability and constraints.
 
 Illustrative initial principles:
 
@@ -94,13 +94,13 @@ P-01 is a defeasible planning preference. P-02 and P-04 are externally governed 
 
 ### 3.1 A candidate evaluation model
 
-For a feasible action \(a\), Harbor may initially use:
+For a feasible action $a$, Harbor may initially use:
 
 $$
 V_0(a)=\big(C(a),R(a),D(a),U(a)\big)
 $$
 
-where \(C\) is cost, \(R\) is modeled risk, \(D\) is disruption, and \(U\) is uncertainty. This is a vector, not an assumed universal scalar utility. An authorized policy may apply lexicographic constraints, thresholds, or a context-specific aggregation rule. An apparently low-cost plan is invalid if it violates a binding safety constraint.
+where $C$ is cost, $R$ is modeled risk, $D$ is disruption, and $U$ is uncertainty. This is a vector, not an assumed universal scalar utility. An authorized policy may apply lexicographic constraints, thresholds, or a context-specific aggregation rule. An apparently low-cost plan is invalid if it violates a binding safety constraint.
 
 ## 4. The Trigger: Evidence That the Worldview Misses
 
@@ -116,13 +116,13 @@ The third aspect cannot be repaired by retrieval alone. It requires evaluating w
 
 ### 4.1 Differential evidence
 
-Let \(E_t^+\) denote evidence supporting the current model and \(E_t^-\) denote counter-evidence. A candidate trigger condition is:
+Let $E_t^+$ denote evidence supporting the current model and $E_t^-$ denote counter-evidence. A candidate trigger condition is:
 
 $$
-T_t=operatorname{DetectGap}(W_t,E_t^+,E_t^-,C_t)
+T_t=\mathrm{DetectGap}(W_t,E_t^+,E_t^-,C_t)
 $$
 
-where \(C_t\) includes the relevant subject, environmental, and governance context. A trigger indicates the need for investigation; it is not authorization to revise a principle or deploy a new evaluator.
+where $C_t$ includes the relevant subject, environmental, and governance context. A trigger indicates the need for investigation; it is not authorization to revise a principle or deploy a new evaluator.
 
 ## 5. Four Distinct Kinds of Change
 
