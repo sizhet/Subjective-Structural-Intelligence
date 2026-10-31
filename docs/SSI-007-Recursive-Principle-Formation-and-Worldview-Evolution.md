@@ -180,7 +180,7 @@ $$
 \Pi_{t+1}=\mathcal{R}_{\pi}(\Pi_t,\widehat{\Pi}_{t+1},D_t,\Gamma_t)
 $$
 
-The generator $$\mathcal{G}_{\pi}$$ proposes; the revision operator $$\mathcal{R}_{\pi}$$ evaluates, constrains, and conditionally adopts. They should not be treated as the same authority.
+The generator $\mathcal{G}_{\pi}$ proposes; the revision operator $\mathcal{R}_{\pi}$ evaluates, constrains, and conditionally adopts. They should not be treated as the same authority.
 
 ## 4.3 Why the process is recursive
 
