@@ -451,9 +451,7 @@ The available actions differ.
 A candidate affordance model is:
 
 $$
-\mathcal{A}(x,S_t)
-=
-f(x,E_t,B_t,R_t)
+\mathcal{A}(x,S_t) = f(x,E_t,B_t,R_t)
 $$
 
 where:
